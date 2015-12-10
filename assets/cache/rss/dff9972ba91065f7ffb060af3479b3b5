@@ -1,0 +1,682 @@
+O:9:"MagpieRSS":22:{s:6:"parser";i:0;s:12:"current_item";a:0:{}s:5:"items";a:20:{i:0;a:9:{s:5:"title";s:52:"Critical Login XSS+CSRF Revolution 2.2.1.4 and Prior";s:4:"link";s:111:"http://feedproxy.google.com/~r/modxsecurity/~3/2uNltGJTDKg/critical-login-xss-csrf-revolution-2-2-1-4-and-prior";s:11:"description";s:1633:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.14<br />
+<strong>Vulnerability type:</strong> CSRF &amp; XSS<br />
+<strong>Report date:</strong> 2014-Jul-10<br />
+<strong>Fixed date:</strong> 2014-Jul-15<br />
+<br />
+<strong>Description</strong> <br />
+A significant vulnerability was discovered in the Manager login of MODX Revolution that also affects the use of the Login Extra. A malicious user could formulate a link that automatically logs the user into their own account, then redirects the user to a site the attacker controls immediately, exposing the user&#039;s CSRF token. This can be exploited with or without getting the user to enter their credentials in the form.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.14.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/release/revolution-2.2.15-pl" target="_blank" rel="nofollow">MODX Revolution 2.2.15</a>. Due to the nature of this issue and the number of files requiring changes the solution is to upgrade. No installable patch or fileset is available for prior versions.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank Narendra Bhati, of <a href="http://www.sumasoft.com" target="_blank" rel="nofollow">Suma Soft</a> for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:8:"comments";s:104:"http://forums.modx.com/thread/92152/critical-login-xss-csrf-revolution-2-2-1-4-and-prior#dis-post-503298";s:7:"pubdate";s:31:"Wed, 16 Jul 2014 10:02:20 -0500";s:4:"guid";s:104:"http://forums.modx.com/thread/92152/critical-login-xss-csrf-revolution-2-2-1-4-and-prior#dis-post-503298";s:10:"feedburner";a:1:{s:8:"origlink";s:104:"http://forums.modx.com/thread/92152/critical-login-xss-csrf-revolution-2-2-1-4-and-prior#dis-post-503298";}s:7:"summary";s:1633:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.14<br />
+<strong>Vulnerability type:</strong> CSRF &amp; XSS<br />
+<strong>Report date:</strong> 2014-Jul-10<br />
+<strong>Fixed date:</strong> 2014-Jul-15<br />
+<br />
+<strong>Description</strong> <br />
+A significant vulnerability was discovered in the Manager login of MODX Revolution that also affects the use of the Login Extra. A malicious user could formulate a link that automatically logs the user into their own account, then redirects the user to a site the attacker controls immediately, exposing the user&#039;s CSRF token. This can be exploited with or without getting the user to enter their credentials in the form.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.14.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/release/revolution-2.2.15-pl" target="_blank" rel="nofollow">MODX Revolution 2.2.15</a>. Due to the nature of this issue and the number of files requiring changes the solution is to upgrade. No installable patch or fileset is available for prior versions.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank Narendra Bhati, of <a href="http://www.sumasoft.com" target="_blank" rel="nofollow">Suma Soft</a> for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:14:"date_timestamp";i:1405522940;}i:1;a:9:{s:5:"title";s:64:"Important Update to AjaxSearch Exploit in Evo 1.0.13 (and prior)";s:4:"link";s:121:"http://feedproxy.google.com/~r/modxsecurity/~3/7bORFXU9Slo/important-update-to-ajaxsearch-exploit-in-evo-1-0-13-and-prior";s:11:"description";s:747:"Last week we <a href="http://forums.modx.com/thread/91266/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability#dis-post-499837" target="_blank" rel="nofollow">announced an exploit found in AjaxSearch</a> that could allow a Remote Code Execution in MODX Evolution. <br />
+<br />
+We originally suggested the removal of the index-ajax.php file was a sufficient method to protect your site from vulnerability. It has come to our attention that this was not correct. The correct methods to close this vulnerability are: remove all AjaxSearch files (if you don&#039;t use this snippet on your site),  upgrade the AjaxSearch files to 1.10.1, or upgrade to Evolution 1.0.14.<br />
+<br />
+Please share this message to ensure every Evo site owner knows.";s:8:"comments";s:114:"http://forums.modx.com/thread/91390/important-update-to-ajaxsearch-exploit-in-evo-1-0-13-and-prior#dis-post-499942";s:7:"pubdate";s:31:"Tue, 10 Jun 2014 09:22:37 -0500";s:4:"guid";s:114:"http://forums.modx.com/thread/91390/important-update-to-ajaxsearch-exploit-in-evo-1-0-13-and-prior#dis-post-499942";s:10:"feedburner";a:1:{s:8:"origlink";s:114:"http://forums.modx.com/thread/91390/important-update-to-ajaxsearch-exploit-in-evo-1-0-13-and-prior#dis-post-499942";}s:7:"summary";s:747:"Last week we <a href="http://forums.modx.com/thread/91266/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability#dis-post-499837" target="_blank" rel="nofollow">announced an exploit found in AjaxSearch</a> that could allow a Remote Code Execution in MODX Evolution. <br />
+<br />
+We originally suggested the removal of the index-ajax.php file was a sufficient method to protect your site from vulnerability. It has come to our attention that this was not correct. The correct methods to close this vulnerability are: remove all AjaxSearch files (if you don&#039;t use this snippet on your site),  upgrade the AjaxSearch files to 1.10.1, or upgrade to Evolution 1.0.14.<br />
+<br />
+Please share this message to ensure every Evo site owner knows.";s:14:"date_timestamp";i:1402410157;}i:2;a:9:{s:5:"title";s:58:"MODX Evolution 1.0.13 (and prior) AjaxSearch Vulnerability";s:4:"link";s:115:"http://feedproxy.google.com/~r/modxsecurity/~3/aUbOyTO0laA/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability";s:11:"description";s:1383:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> &lt;=1.0.13<br />
+<strong>Vulnerabilty Type:</strong> Remote Code Execution<br />
+<strong>Report Date:</strong> 2014-May-29<br />
+<strong>Fixed Date:</strong> 2014-June-5<br />
+<br />
+<strong>Description</strong><br />
+The AjaxSearch component distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows remote code execution.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.13 (with AjaxSearch installed) are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are two ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Upgrade <a href="http://modx.com/extras/package/ajaxsearch" target="_blank" rel="nofollow">AjaxSearch</a> to version 1.10.1</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.14</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to <a href="https://github.com/barsproger" target="_blank" rel="nofollow">Semko Vitaliy</a> for identifying the vector and community member <a href="https://github.com/Jako" target="_blank" rel="nofollow">Thomas Jakobi</a> for the resolution.";s:8:"comments";s:108:"http://forums.modx.com/thread/91266/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability#dis-post-499837";s:7:"pubdate";s:31:"Mon, 09 Jun 2014 11:36:33 -0500";s:4:"guid";s:108:"http://forums.modx.com/thread/91266/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability#dis-post-499837";s:10:"feedburner";a:1:{s:8:"origlink";s:108:"http://forums.modx.com/thread/91266/modx-evolution-1-0-13-and-prior-ajaxsearch-vulnerability#dis-post-499837";}s:7:"summary";s:1383:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> &lt;=1.0.13<br />
+<strong>Vulnerabilty Type:</strong> Remote Code Execution<br />
+<strong>Report Date:</strong> 2014-May-29<br />
+<strong>Fixed Date:</strong> 2014-June-5<br />
+<br />
+<strong>Description</strong><br />
+The AjaxSearch component distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows remote code execution.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.13 (with AjaxSearch installed) are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are two ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Upgrade <a href="http://modx.com/extras/package/ajaxsearch" target="_blank" rel="nofollow">AjaxSearch</a> to version 1.10.1</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.14</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to <a href="https://github.com/barsproger" target="_blank" rel="nofollow">Semko Vitaliy</a> for identifying the vector and community member <a href="https://github.com/Jako" target="_blank" rel="nofollow">Thomas Jakobi</a> for the resolution.";s:14:"date_timestamp";i:1402331793;}i:3;a:9:{s:5:"title";s:54:"MODX Revolution 2.2.13 (and prior) Blind SQL Injection";s:4:"link";s:111:"http://feedproxy.google.com/~r/modxsecurity/~3/D1NcYBAGo5I/modx-revolution-2-2-13-and-prior-blind-sql-injection";s:11:"description";s:1502:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.13<br />
+<strong>Vulnerability type:</strong> SQL Injection<br />
+<strong>Report date:</strong> 2014-Mar-10<br />
+<strong>Fixed date:</strong> 2014-Apr-04<br />
+<br />
+<strong>Description</strong><br />
+Multiple vulnerabilities were discovered in MODX Revolution that allow users to inject and manipulate the database. This includes an issue exploitable through the session ID supplied by the user and is exploitable without authentication. Another issue relates to messaging and connectors for authenticated users. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.13.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.14</a>. Due to the nature of this issue and the number of files requiring changes the solution is to upgrade. No installable patch or fileset is available for prior versions.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank Craig Arendt, of <a href="http://www.stratumsecurity.com" target="_blank" rel="nofollow">Stratum Security</a> for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:8:"comments";s:104:"http://forums.modx.com/thread/90173/modx-revolution-2-2-13-and-prior-blind-sql-injection#dis-post-495452";s:7:"pubdate";s:31:"Mon, 21 Apr 2014 10:18:45 -0500";s:4:"guid";s:104:"http://forums.modx.com/thread/90173/modx-revolution-2-2-13-and-prior-blind-sql-injection#dis-post-495452";s:10:"feedburner";a:1:{s:8:"origlink";s:104:"http://forums.modx.com/thread/90173/modx-revolution-2-2-13-and-prior-blind-sql-injection#dis-post-495452";}s:7:"summary";s:1502:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.13<br />
+<strong>Vulnerability type:</strong> SQL Injection<br />
+<strong>Report date:</strong> 2014-Mar-10<br />
+<strong>Fixed date:</strong> 2014-Apr-04<br />
+<br />
+<strong>Description</strong><br />
+Multiple vulnerabilities were discovered in MODX Revolution that allow users to inject and manipulate the database. This includes an issue exploitable through the session ID supplied by the user and is exploitable without authentication. Another issue relates to messaging and connectors for authenticated users. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.13.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.14</a>. Due to the nature of this issue and the number of files requiring changes the solution is to upgrade. No installable patch or fileset is available for prior versions.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank Craig Arendt, of <a href="http://www.stratumsecurity.com" target="_blank" rel="nofollow">Stratum Security</a> for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:14:"date_timestamp";i:1398093525;}i:4;a:9:{s:5:"title";s:33:"MODX Revolution 2.X SQL Injection";s:4:"link";s:92:"http://feedproxy.google.com/~r/modxsecurity/~3/Nnme2YLhKCc/modx-revolution-2-x-sql-injection";s:11:"description";s:2462:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Extremely Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.12<br />
+<strong>Vulnerability type:</strong> SQL Injection<br />
+<strong>Report date:</strong> 2014-Mar-5<br />
+<strong>Fixed date:</strong> 2014-Mar-6<br />
+<br />
+<strong>Description</strong><br />
+A vulnerability was discovered in MODX Revolution that allows users to inject and manipulate the database. Attackers could exploit this to alter or destroy data in the database. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.12.<br />
+<br />
+<strong>Solutions</strong><br />
+<ol class="dis-ol"><br />
+<li>Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.13</a></li>
+<li>To quickly patch 2.2.12 before a complete upgrade you can replace the modx.class.php from 2.2.13 via: <a href="https://raw.github.com/modxcms/revolution/v2.2.13-pl/core/model/modx/modx.class.php" target="_blank" rel="nofollow">https://raw.github.com/modxcms/revolution/v2.2.13-pl/core/model/modx/modx.class.php</a> </li>
+<li>For releases between 2.2.6 and 2.2.11 inclusive, you can replace the modx.class.php with the one from the relevant &#039;pl2&#039; tag in the <a href="https://github.com/modxcms/revolution/" target="_blank" rel="nofollow">MODX Revolution repository</a>.  E.g. for v2.2.10-pl it would be <a href="https://raw.github.com/modxcms/revolution/v2.2.10-pl2/core/model/modx/modx.class.php" target="_blank" rel="nofollow">https://raw.github.com/modxcms/revolution/v2.2.10-pl2/core/model/modx/modx.class.php</a>&quot;. </li>
+<li>For releases prior to 2.2.6, please <a href="mailto:help@modx.com" target="_blank" rel="nofollow">contact MODX Support</a> for assistance patching your version, or to get help with an upgrade to 2.2.13</li>
+</ol>
+<br />
+<strong>Special Note for MODX Cloud Users</strong><br />
+If your sites are on MODX Cloud, we&#039;ve taken steps to protect all sites from this issue, as always we recommend you upgrade to 2.2.13 at your earliest convenience.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank MODX community member, Mark Ernst, for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:8:"comments";s:85:"http://forums.modx.com/thread/89486/modx-revolution-2-x-sql-injection#dis-post-492046";s:7:"pubdate";s:31:"Fri, 07 Mar 2014 04:30:22 -0600";s:4:"guid";s:85:"http://forums.modx.com/thread/89486/modx-revolution-2-x-sql-injection#dis-post-492046";s:10:"feedburner";a:1:{s:8:"origlink";s:85:"http://forums.modx.com/thread/89486/modx-revolution-2-x-sql-injection#dis-post-492046";}s:7:"summary";s:2462:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Extremely Critical<br />
+<strong>Versions:</strong> 2.0.0–2.2.12<br />
+<strong>Vulnerability type:</strong> SQL Injection<br />
+<strong>Report date:</strong> 2014-Mar-5<br />
+<strong>Fixed date:</strong> 2014-Mar-6<br />
+<br />
+<strong>Description</strong><br />
+A vulnerability was discovered in MODX Revolution that allows users to inject and manipulate the database. Attackers could exploit this to alter or destroy data in the database. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases prior to and including 2.2.12.<br />
+<br />
+<strong>Solutions</strong><br />
+<ol class="dis-ol"><br />
+<li>Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.13</a></li>
+<li>To quickly patch 2.2.12 before a complete upgrade you can replace the modx.class.php from 2.2.13 via: <a href="https://raw.github.com/modxcms/revolution/v2.2.13-pl/core/model/modx/modx.class.php" target="_blank" rel="nofollow">https://raw.github.com/modxcms/revolution/v2.2.13-pl/core/model/modx/modx.class.php</a> </li>
+<li>For releases between 2.2.6 and 2.2.11 inclusive, you can replace the modx.class.php with the one from the relevant &#039;pl2&#039; tag in the <a href="https://github.com/modxcms/revolution/" target="_blank" rel="nofollow">MODX Revolution repository</a>.  E.g. for v2.2.10-pl it would be <a href="https://raw.github.com/modxcms/revolution/v2.2.10-pl2/core/model/modx/modx.class.php" target="_blank" rel="nofollow">https://raw.github.com/modxcms/revolution/v2.2.10-pl2/core/model/modx/modx.class.php</a>&quot;. </li>
+<li>For releases prior to 2.2.6, please <a href="mailto:help@modx.com" target="_blank" rel="nofollow">contact MODX Support</a> for assistance patching your version, or to get help with an upgrade to 2.2.13</li>
+</ol>
+<br />
+<strong>Special Note for MODX Cloud Users</strong><br />
+If your sites are on MODX Cloud, we&#039;ve taken steps to protect all sites from this issue, as always we recommend you upgrade to 2.2.13 at your earliest convenience.<br />
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank MODX community member, Mark Ernst, for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:14:"date_timestamp";i:1394188222;}i:5;a:9:{s:5:"title";s:36:"Security Bypass and Remote Execution";s:4:"link";s:95:"http://feedproxy.google.com/~r/modxsecurity/~3/SDYSxSMp0do/security-bypass-and-remote-execution";s:11:"description";s:1449:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Extremely Critical<br />
+<strong>Versions:</strong> 2.1.0–2.2.7<br />
+<strong>Vulnerability type:</strong> Security Bypass<br />
+<strong>Report date:</strong> 2013-Jun-4<br />
+<strong>Fixed date:</strong> 2013-Jun-4<br />
+<br />
+<strong>Description</strong><br />
+Two vulnerabilities were discovered in MODX that allow users to bypass security. Attackers could exploit this to remotely execute arbitrary code on the targeted server. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases from and including 2.1.0–2.2.7 are affected. Revolution 2.0.8 and below are not affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are two possible solutions:<br />
+<ol class="dis-ol"><br />
+<li> Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.8</a>, or</li>
+<li> Install this <a href="http://modx.com/extras/package/securitypatch20130604" target="_blank" rel="nofollow">plugin patch</a> until upgrade to 2.2.8+ is completed.</li>
+</ol>
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank valued community members Fi1osof and Agel_Nash for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:8:"comments";s:88:"http://forums.modx.com/thread/84893/security-bypass-and-remote-execution#dis-post-468080";s:7:"pubdate";s:31:"Tue, 04 Jun 2013 09:55:36 -0500";s:4:"guid";s:88:"http://forums.modx.com/thread/84893/security-bypass-and-remote-execution#dis-post-468080";s:10:"feedburner";a:1:{s:8:"origlink";s:88:"http://forums.modx.com/thread/84893/security-bypass-and-remote-execution#dis-post-468080";}s:7:"summary";s:1449:"<strong>Product:</strong> MODX Revolution<br />
+<strong>Severity:</strong> Extremely Critical<br />
+<strong>Versions:</strong> 2.1.0–2.2.7<br />
+<strong>Vulnerability type:</strong> Security Bypass<br />
+<strong>Report date:</strong> 2013-Jun-4<br />
+<strong>Fixed date:</strong> 2013-Jun-4<br />
+<br />
+<strong>Description</strong><br />
+Two vulnerabilities were discovered in MODX that allow users to bypass security. Attackers could exploit this to remotely execute arbitrary code on the targeted server. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX Revolution releases from and including 2.1.0–2.2.7 are affected. Revolution 2.0.8 and below are not affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are two possible solutions:<br />
+<ol class="dis-ol"><br />
+<li> Upgrade to <a href="http://modx.com/download/" target="_blank" rel="nofollow">MODX Revolution 2.2.8</a>, or</li>
+<li> Install this <a href="http://modx.com/extras/package/securitypatch20130604" target="_blank" rel="nofollow">plugin patch</a> until upgrade to 2.2.8+ is completed.</li>
+</ol>
+<br />
+<strong>Acknowledgement</strong><br />
+We would like to thank valued community members Fi1osof and Agel_Nash for bringing this issue to our attention.<br />
+<br />
+<strong>Additional Information</strong><br />
+For additional information, please use the <a href="http://modx.com/company/contact/" target="_blank" rel="nofollow">MODX Contact Form</a>";s:14:"date_timestamp";i:1370357736;}i:6;a:9:{s:5:"title";s:67:"MODX Evolution 1.0.7 (and prior) ForgotManager plugin Vulnerability";s:4:"link";s:124:"http://feedproxy.google.com/~r/modxsecurity/~3/BJ-pgFzh4nA/modx-evolution-1-0-7-and-prior-forgotmanager-plugin-vulnerability";s:11:"description";s:1424:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.7<br />
+<strong>Vulnerabilty Type:</strong> Permissions, Privileges, and Access Control; Input Validation; SQL Injection<br />
+<strong>Report Date:</strong> 2013-Jan-4<br />
+<strong>Fixed Date:</strong> 2013-Jan-8<br />
+<br />
+<strong>Description</strong><br />
+The Forgot Manager Login plugin distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows users to gain unauthorized access to the MODX Manager. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.7 (with ForgotManager plugin active) are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are three ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Disable Forgot Manager Login plugin</li>
+<li>Upgrade <a href="http://modx.com/extras/package/forgotmanagerlogin" target="_blank" rel="nofollow">Forgot Manager Login</a> to version 1.1.6</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.8</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to community member Jako for reporting this issue directly to MODX so a resolution could be made available before details were.";s:8:"comments";s:117:"http://forums.modx.com/thread/81545/modx-evolution-1-0-7-and-prior-forgotmanager-plugin-vulnerability#dis-post-449818";s:7:"pubdate";s:31:"Tue, 08 Jan 2013 04:28:14 -0600";s:4:"guid";s:117:"http://forums.modx.com/thread/81545/modx-evolution-1-0-7-and-prior-forgotmanager-plugin-vulnerability#dis-post-449818";s:10:"feedburner";a:1:{s:8:"origlink";s:117:"http://forums.modx.com/thread/81545/modx-evolution-1-0-7-and-prior-forgotmanager-plugin-vulnerability#dis-post-449818";}s:7:"summary";s:1424:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.7<br />
+<strong>Vulnerabilty Type:</strong> Permissions, Privileges, and Access Control; Input Validation; SQL Injection<br />
+<strong>Report Date:</strong> 2013-Jan-4<br />
+<strong>Fixed Date:</strong> 2013-Jan-8<br />
+<br />
+<strong>Description</strong><br />
+The Forgot Manager Login plugin distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows users to gain unauthorized access to the MODX Manager. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.7 (with ForgotManager plugin active) are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are three ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Disable Forgot Manager Login plugin</li>
+<li>Upgrade <a href="http://modx.com/extras/package/forgotmanagerlogin" target="_blank" rel="nofollow">Forgot Manager Login</a> to version 1.1.6</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.8</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to community member Jako for reporting this issue directly to MODX so a resolution could be made available before details were.";s:14:"date_timestamp";i:1357640894;}i:7;a:9:{s:5:"title";s:60:"MODX Evolution 1.0.6 (and prior) Unauthorized Manager Access";s:4:"link";s:117:"http://feedproxy.google.com/~r/modxsecurity/~3/LYb16Yy-U1E/modx-evolution-1-0-6-and-prior-unauthorized-manager-access";s:11:"description";s:1440:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.6 and all previous releases<br />
+<strong>Vulnerabilty Type:</strong> Permissions, Privileges, and Access Control; Input Validation; SQL Injection<br />
+<strong>Report Date:</strong> 2012-Nov-26<br />
+<strong>Fixed Date:</strong> 2012-Nov-26<br />
+<br />
+<strong>Description</strong><br />
+The Forgot Manager Login plugin distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows users to gain unauthorized access to the MODX Manager. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.6 are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are three ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Disable Forgot Manager Login plugin</li>
+<li>Upgrade <a href="http://modx.com/extras/package/forgotmanagerlogin" target="_blank" rel="nofollow">Forgot Manager Login</a> to version 1.1.4</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.7</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to community member Agel_Nash for reporting the full scope of this issue directly to MODX so a resolution could be made available before details were.";s:8:"comments";s:110:"http://forums.modx.com/thread/80701/modx-evolution-1-0-6-and-prior-unauthorized-manager-access#dis-post-444667";s:7:"pubdate";s:31:"Mon, 26 Nov 2012 03:33:34 -0600";s:4:"guid";s:110:"http://forums.modx.com/thread/80701/modx-evolution-1-0-6-and-prior-unauthorized-manager-access#dis-post-444667";s:10:"feedburner";a:1:{s:8:"origlink";s:110:"http://forums.modx.com/thread/80701/modx-evolution-1-0-6-and-prior-unauthorized-manager-access#dis-post-444667";}s:7:"summary";s:1440:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.6 and all previous releases<br />
+<strong>Vulnerabilty Type:</strong> Permissions, Privileges, and Access Control; Input Validation; SQL Injection<br />
+<strong>Report Date:</strong> 2012-Nov-26<br />
+<strong>Fixed Date:</strong> 2012-Nov-26<br />
+<br />
+<strong>Description</strong><br />
+The Forgot Manager Login plugin distributed with all versions of MODX Evolution (and 0.9.x) contains a vulnerability that allows users to gain unauthorized access to the MODX Manager. <br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.6 are affected.<br />
+<br />
+<strong>Solutions</strong><br />
+There are three ways to resolve or mitigate the issue:<br />
+<ol class="dis-ol"><br />
+<li>Disable Forgot Manager Login plugin</li>
+<li>Upgrade <a href="http://modx.com/extras/package/forgotmanagerlogin" target="_blank" rel="nofollow">Forgot Manager Login</a> to version 1.1.4</li>
+<li>Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.7</a>.</li>
+</ol>
+<br />
+<strong>NOTE</strong><br />
+A special thanks to community member Agel_Nash for reporting the full scope of this issue directly to MODX so a resolution could be made available before details were.";s:14:"date_timestamp";i:1353922414;}i:8;a:9:{s:5:"title";s:53:"MODX Website Compromise Update: Revolution Still Safe";s:4:"link";s:111:"http://feedproxy.google.com/~r/modxsecurity/~3/wj00scFO8ho/modx-website-compromise-update-revolution-still-safe";s:11:"description";s:425:"<strong>MODX Revolution is Still Safe</strong><br />
+After exhaustive investigation, at this point we have determined the recent modx.com security breach used custom code authored specifically for our website. It was not a result of code contained in any core releases of MODX Revolution. While we have taken additional steps to further secure our website, we will follow up with a more complete response in the coming weeks.";s:8:"comments";s:104:"http://forums.modx.com/thread/79153/modx-website-compromise-update-revolution-still-safe#dis-post-436674";s:7:"pubdate";s:31:"Tue, 11 Sep 2012 11:10:08 -0500";s:4:"guid";s:104:"http://forums.modx.com/thread/79153/modx-website-compromise-update-revolution-still-safe#dis-post-436674";s:10:"feedburner";a:1:{s:8:"origlink";s:104:"http://forums.modx.com/thread/79153/modx-website-compromise-update-revolution-still-safe#dis-post-436674";}s:7:"summary";s:425:"<strong>MODX Revolution is Still Safe</strong><br />
+After exhaustive investigation, at this point we have determined the recent modx.com security breach used custom code authored specifically for our website. It was not a result of code contained in any core releases of MODX Revolution. While we have taken additional steps to further secure our website, we will follow up with a more complete response in the coming weeks.";s:14:"date_timestamp";i:1347379808;}i:9;a:9:{s:5:"title";s:23:"MODX Website Compromise";s:4:"link";s:82:"http://feedproxy.google.com/~r/modxsecurity/~3/f-jdLv-VmuY/modx-website-compromise";s:11:"description";s:2193:"On Wednesday August 29, a hacker exploited a Local File Inclusion (LFI) vector in an older release of MODX Revolution we had running on one of our servers. This issue had already been fixed as part of the MODX Revolution 2.2.4 release. We locked down the site while we investigated the compromise. <br />
+<br />
+Yes, one of the MODX web properties was not up to date and this was <em>really</em> not smart. We got burned, and this is our mea culpa. We have upgraded our websites to 2.2.4, changed all passwords related to our internal infrastructure, and set new policies going forward.<br />
+<br />
+<strong>Your Passwords are Safe</strong><br />
+<br />
+No passwords or hashed passwords were disclosed. MODX does not store passwords on the affected websites by design (see Update 2 below), using a custom SSO application hosted on an external, secure server. Passwords are hashed and salted multiple times, with unique salts per user. Despite no access to passwords being disclosed, you may consider changing any non-unique passwords used across multiple websites. <br />
+<br />
+<strong>We’re Sorry</strong><br />
+<br />
+We sincerely and profusely apologize for any inconvenience our lapse in diligence caused. We promise to do our utmost to be proactive going forward, taking every step we can to ensure we do not repeat this in the future.<br />
+<br />
+<strong>Please Upgrade Your Sites</strong><br />
+<br />
+Security requires constantly staying on top of your websites; it’s an ongoing process and not a destination. As with any software, it’s important to to keep up to date when new updates come out. Upgrade your sites to the latest MODX versions when they’re released—no excuses.<br />
+<br />
+<em>Update 1</em>: We clarified wording to accurately reflect that the actual passwords/hashed passwords were not disclosed.<br />
+<br />
+<em>Update 2</em>: Further clarification that the user table field shared publicly by the culprit does not contain any passwords (we repurposed the field). It does contain: <br />
+<ul class="dis-ul"><br />
+<li>Salts not used by our SSO</li>
+<li>&quot;cachepwd&quot; (also not used by our SSO) which expires within minutes of creation.</li>
+</ul>";s:8:"comments";s:75:"http://forums.modx.com/thread/79060/modx-website-compromise#dis-post-435698";s:7:"pubdate";s:31:"Mon, 03 Sep 2012 11:12:01 -0500";s:4:"guid";s:75:"http://forums.modx.com/thread/79060/modx-website-compromise#dis-post-435698";s:10:"feedburner";a:1:{s:8:"origlink";s:75:"http://forums.modx.com/thread/79060/modx-website-compromise#dis-post-435698";}s:7:"summary";s:2193:"On Wednesday August 29, a hacker exploited a Local File Inclusion (LFI) vector in an older release of MODX Revolution we had running on one of our servers. This issue had already been fixed as part of the MODX Revolution 2.2.4 release. We locked down the site while we investigated the compromise. <br />
+<br />
+Yes, one of the MODX web properties was not up to date and this was <em>really</em> not smart. We got burned, and this is our mea culpa. We have upgraded our websites to 2.2.4, changed all passwords related to our internal infrastructure, and set new policies going forward.<br />
+<br />
+<strong>Your Passwords are Safe</strong><br />
+<br />
+No passwords or hashed passwords were disclosed. MODX does not store passwords on the affected websites by design (see Update 2 below), using a custom SSO application hosted on an external, secure server. Passwords are hashed and salted multiple times, with unique salts per user. Despite no access to passwords being disclosed, you may consider changing any non-unique passwords used across multiple websites. <br />
+<br />
+<strong>We’re Sorry</strong><br />
+<br />
+We sincerely and profusely apologize for any inconvenience our lapse in diligence caused. We promise to do our utmost to be proactive going forward, taking every step we can to ensure we do not repeat this in the future.<br />
+<br />
+<strong>Please Upgrade Your Sites</strong><br />
+<br />
+Security requires constantly staying on top of your websites; it’s an ongoing process and not a destination. As with any software, it’s important to to keep up to date when new updates come out. Upgrade your sites to the latest MODX versions when they’re released—no excuses.<br />
+<br />
+<em>Update 1</em>: We clarified wording to accurately reflect that the actual passwords/hashed passwords were not disclosed.<br />
+<br />
+<em>Update 2</em>: Further clarification that the user table field shared publicly by the culprit does not contain any passwords (we repurposed the field). It does contain: <br />
+<ul class="dis-ul"><br />
+<li>Salts not used by our SSO</li>
+<li>&quot;cachepwd&quot; (also not used by our SSO) which expires within minutes of creation.</li>
+</ul>";s:14:"date_timestamp";i:1346688721;}i:10;a:9:{s:5:"title";s:70:"MODX Evolution 1.0.5 (and prior) Remote Script Execution Vulnerability";s:4:"link";s:127:"http://feedproxy.google.com/~r/modxsecurity/~3/wGzha324jfk/modx-evolution-1-0-5-and-prior-remote-script-execution-vulnerability";s:11:"description";s:1324:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.5 and all previous releases<br />
+<strong>Vunerability type:</strong> Remote Script Execution*<br />
+<strong>Report Date:</strong> 2012-Feb-16<br />
+<strong>Fixed Date:</strong> 2012-Feb-20<br />
+<br />
+<strong>Description</strong><br />
+<br />
+A vigilant community member sent us a security notice to let us know that he found a security issue in a compromised site running MODX Evolution 1.0.5. <br />
+<br />
+Upon investigation, we determined that MODX Evolution had been sanitizing global GPC (GET/POST/Cookie or Request) variables in a way that allowed any Snippet within MODX that echoed user input (i.e. a website form field) from the GPC variables back to the output (for display) to inadvertently execute the MODX tags provided in the input field.<br />
+ <br />
+*Remote script execution requires specific configurations of add-ons included in the core.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.5 are affected.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.6</a>";s:8:"comments";s:120:"http://forums.modx.com/thread/74423/modx-evolution-1-0-5-and-prior-remote-script-execution-vulnerability#dis-post-412760";s:7:"pubdate";s:31:"Mon, 20 Feb 2012 04:44:07 -0600";s:4:"guid";s:120:"http://forums.modx.com/thread/74423/modx-evolution-1-0-5-and-prior-remote-script-execution-vulnerability#dis-post-412760";s:10:"feedburner";a:1:{s:8:"origlink";s:120:"http://forums.modx.com/thread/74423/modx-evolution-1-0-5-and-prior-remote-script-execution-vulnerability#dis-post-412760";}s:7:"summary";s:1324:"<strong>Product:</strong> MODX Evolution<br />
+<strong>Risk:</strong> Very High<br />
+<strong>Severity:</strong> Critical<br />
+<strong>Versions:</strong> 1.0.5 and all previous releases<br />
+<strong>Vunerability type:</strong> Remote Script Execution*<br />
+<strong>Report Date:</strong> 2012-Feb-16<br />
+<strong>Fixed Date:</strong> 2012-Feb-20<br />
+<br />
+<strong>Description</strong><br />
+<br />
+A vigilant community member sent us a security notice to let us know that he found a security issue in a compromised site running MODX Evolution 1.0.5. <br />
+<br />
+Upon investigation, we determined that MODX Evolution had been sanitizing global GPC (GET/POST/Cookie or Request) variables in a way that allowed any Snippet within MODX that echoed user input (i.e. a website form field) from the GPC variables back to the output (for display) to inadvertently execute the MODX tags provided in the input field.<br />
+ <br />
+*Remote script execution requires specific configurations of add-ons included in the core.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODX 0.9.x/Evolution releases prior to and including MODX Evolution 1.0.5 are affected.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to <a href="http://modx.com/download/evolution/" target="_blank" rel="nofollow"> MODX Evolution 1.0.6</a>";s:14:"date_timestamp";i:1329734647;}i:11;a:9:{s:5:"title";s:78:"MODx Evo 1.0.4 (and prior) SQL Injection and Directory Traversal Vulnerabities";s:4:"link";s:135:"http://feedproxy.google.com/~r/modxsecurity/~3/SukP2a2DUDk/modx-evo-1-0-4-and-prior-sql-injection-and-directory-traversal-vulnerabities";s:11:"description";s:1357:"<strong>Status: Solved</strong><br />
+Product: MODx Evolution<br />
+Severity: High<br />
+Versions: 1.0.4 and prior<br />
+Advisory Date: 2011-01-26<br />
+Fixed Date: 2011-01-19<br />
+Impact:<br />
+ a) A remote attacker may access or view arbitrary files on the server.<br />
+ b) A remote attacker may execute arbitrary PHP code as a result of SQL injection.<br />
+<br />
+<strong>Description</strong><br />
+JPCERT/CC has issued the following advisories:<br />
+ a) <a href="http://jvn.jp/en/jp/JVN95385972/index.html" target="_blank" rel="nofollow">http://jvn.jp/en/jp/JVN95385972/index.html</a><br />
+ b) <a href="http://jvn.jp/en/jp/JVN54092716/index.html" target="_blank" rel="nofollow">http://jvn.jp/en/jp/JVN54092716/index.html</a><br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to MODx Revolution 1.0.5 available here:  <a href="http://modxcms.com/download.html#ga" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#ga" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#ga</a><br />
+Read the <a href="http://modxcms.com/forums/index.php/topic,60045.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,60045.0.html" target="_blank" rel="nofollow']); return false;">Release Announcement</a> for Evolution 1.0.5.<br />";s:8:"comments";s:124:"http://forums.modx.com/thread/268/modx-evo-1-0-4-and-prior-sql-injection-and-directory-traversal-vulnerabities#dis-post-1674";s:7:"pubdate";s:31:"Fri, 28 Jan 2011 02:13:31 -0600";s:4:"guid";s:124:"http://forums.modx.com/thread/268/modx-evo-1-0-4-and-prior-sql-injection-and-directory-traversal-vulnerabities#dis-post-1674";s:10:"feedburner";a:1:{s:8:"origlink";s:124:"http://forums.modx.com/thread/268/modx-evo-1-0-4-and-prior-sql-injection-and-directory-traversal-vulnerabities#dis-post-1674";}s:7:"summary";s:1357:"<strong>Status: Solved</strong><br />
+Product: MODx Evolution<br />
+Severity: High<br />
+Versions: 1.0.4 and prior<br />
+Advisory Date: 2011-01-26<br />
+Fixed Date: 2011-01-19<br />
+Impact:<br />
+ a) A remote attacker may access or view arbitrary files on the server.<br />
+ b) A remote attacker may execute arbitrary PHP code as a result of SQL injection.<br />
+<br />
+<strong>Description</strong><br />
+JPCERT/CC has issued the following advisories:<br />
+ a) <a href="http://jvn.jp/en/jp/JVN95385972/index.html" target="_blank" rel="nofollow">http://jvn.jp/en/jp/JVN95385972/index.html</a><br />
+ b) <a href="http://jvn.jp/en/jp/JVN54092716/index.html" target="_blank" rel="nofollow">http://jvn.jp/en/jp/JVN54092716/index.html</a><br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to MODx Revolution 1.0.5 available here:  <a href="http://modxcms.com/download.html#ga" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#ga" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#ga</a><br />
+Read the <a href="http://modxcms.com/forums/index.php/topic,60045.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,60045.0.html" target="_blank" rel="nofollow']); return false;">Release Announcement</a> for Evolution 1.0.5.<br />";s:14:"date_timestamp";i:1296202411;}i:12;a:9:{s:5:"title";s:42:"Critical PHP Bug Security Notice and Patch";s:4:"link";s:101:"http://feedproxy.google.com/~r/modxsecurity/~3/L6gFqKf7bu4/critical-php-bug-security-notice-and-patch";s:11:"description";s:3322:"Earlier this week, a PHP Security Notice was made due to a critical bug in PHP that could cause PHP to fail should a value of 2.2250738585072011e-308 be set to a PHP value.<br />
+<br />
+More information can be found here:<br />
+<ul class="dis-ul"><li><a href="http://bugs.php.net/bug.php?id=53632" target="_blank" rel="nofollow">http://bugs.php.net/bug.php?id=53632</a></li>
+<li><a href="http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/" target="_blank" rel="nofollow">http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/</a></li></ul>
+<br />
+This bug can affect MODx installations. MODx Revolution has been patched in GitHub for this. It is <strong>highly</strong> recommended that all MODx Revolution users patch their MODx installations with the fix made in this commit: <a href="https://github.com/modxcms/revolution/commit/3d8175c010374a3662fb86492fe7e808df0bae66" target="_blank" rel="nofollow">https://github.com/modxcms/revolution/commit/3d8175c010374a3662fb86492fe7e808df0bae66</a> (do not copy the entire modx.class.php file, just the affected lines)<br />
+<br />
+To patch for Revolution, simply paste the following lines into the file &quot;core/model/modx/modx.class.php&quot; after line 30 (after the comments):<br />
+<div class="dis-code"><pre class="brush: php; toolbar: false">if (strstr(str_replace('.','',serialize($_REQUEST)), '22250738585072011')) {
+  header('Status: 422 Unprocessable Entity'); die();
+}</pre></div><br />
+<br />
+Alternatively, if you don’t have FTP or SSH access to your server, you can download <a href="http://modxcms.com/extras/package/789" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/extras/package/789" target="_blank" rel="nofollow']); return false;">a Plugin-based patch</a> via Package Management, in &quot;Hotfixes &amp; Security Updates&quot; -&gt; &quot;Hotfix&quot; -&gt; &quot;bug-3350&quot;. Installing it will patch your installation with a Plugin. (While the Plugin will work, MODX recommends patching the files if possible.)<br />
+<br />
+To patch for Evolution, simply add the above lines at the top of the &quot;manager/includes/protect.inc.php&quot; file.<br />
+<br />
+Since this is a PHP bug, and not a MODx bug, this will affect any and all MODx installations on server architecture that uses the x87 FPU and hasn’t forced SSE or float-store.<br />
+<br />
+<strong>LATE UPDATE:</strong><br />
+<br />
+The MODX Team has released Revolution 2.0.6-pl2 which adds a workaround for this PHP bug, as well as a couple other issues. You can download it here: <a href="http://modxcms.com/download/" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/</a>. Upgrading is not required if you applied the patch above.<br />
+<br />
+Changelog for 2.0.6-pl2:<br />
+<div class="dis-code"><pre class="brush: php; toolbar: false">
+MODx Revolution 2.0.6-pl2 (January 6, 2011)
+====================================
+- &#91;#3350&#93; Fix for PHP bug: http://bugs.php.net/bug.php?id=53632
+- &#91;#3347&#93; Fix issue where renaming a file broke the browsing of directory tree
+- Fix issue where FC tvDefault rules, regardless of active state, are always run
+ </pre></div>";s:8:"comments";s:90:"http://forums.modx.com/thread/267/critical-php-bug-security-notice-and-patch#dis-post-1673";s:7:"pubdate";s:31:"Thu, 06 Jan 2011 09:43:30 -0600";s:4:"guid";s:90:"http://forums.modx.com/thread/267/critical-php-bug-security-notice-and-patch#dis-post-1673";s:10:"feedburner";a:1:{s:8:"origlink";s:90:"http://forums.modx.com/thread/267/critical-php-bug-security-notice-and-patch#dis-post-1673";}s:7:"summary";s:3322:"Earlier this week, a PHP Security Notice was made due to a critical bug in PHP that could cause PHP to fail should a value of 2.2250738585072011e-308 be set to a PHP value.<br />
+<br />
+More information can be found here:<br />
+<ul class="dis-ul"><li><a href="http://bugs.php.net/bug.php?id=53632" target="_blank" rel="nofollow">http://bugs.php.net/bug.php?id=53632</a></li>
+<li><a href="http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/" target="_blank" rel="nofollow">http://www.exploringbinary.com/php-hangs-on-numeric-value-2-2250738585072011e-308/</a></li></ul>
+<br />
+This bug can affect MODx installations. MODx Revolution has been patched in GitHub for this. It is <strong>highly</strong> recommended that all MODx Revolution users patch their MODx installations with the fix made in this commit: <a href="https://github.com/modxcms/revolution/commit/3d8175c010374a3662fb86492fe7e808df0bae66" target="_blank" rel="nofollow">https://github.com/modxcms/revolution/commit/3d8175c010374a3662fb86492fe7e808df0bae66</a> (do not copy the entire modx.class.php file, just the affected lines)<br />
+<br />
+To patch for Revolution, simply paste the following lines into the file &quot;core/model/modx/modx.class.php&quot; after line 30 (after the comments):<br />
+<div class="dis-code"><pre class="brush: php; toolbar: false">if (strstr(str_replace('.','',serialize($_REQUEST)), '22250738585072011')) {
+  header('Status: 422 Unprocessable Entity'); die();
+}</pre></div><br />
+<br />
+Alternatively, if you don’t have FTP or SSH access to your server, you can download <a href="http://modxcms.com/extras/package/789" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/extras/package/789" target="_blank" rel="nofollow']); return false;">a Plugin-based patch</a> via Package Management, in &quot;Hotfixes &amp; Security Updates&quot; -&gt; &quot;Hotfix&quot; -&gt; &quot;bug-3350&quot;. Installing it will patch your installation with a Plugin. (While the Plugin will work, MODX recommends patching the files if possible.)<br />
+<br />
+To patch for Evolution, simply add the above lines at the top of the &quot;manager/includes/protect.inc.php&quot; file.<br />
+<br />
+Since this is a PHP bug, and not a MODx bug, this will affect any and all MODx installations on server architecture that uses the x87 FPU and hasn’t forced SSE or float-store.<br />
+<br />
+<strong>LATE UPDATE:</strong><br />
+<br />
+The MODX Team has released Revolution 2.0.6-pl2 which adds a workaround for this PHP bug, as well as a couple other issues. You can download it here: <a href="http://modxcms.com/download/" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/</a>. Upgrading is not required if you applied the patch above.<br />
+<br />
+Changelog for 2.0.6-pl2:<br />
+<div class="dis-code"><pre class="brush: php; toolbar: false">
+MODx Revolution 2.0.6-pl2 (January 6, 2011)
+====================================
+- &#91;#3350&#93; Fix for PHP bug: http://bugs.php.net/bug.php?id=53632
+- &#91;#3347&#93; Fix issue where renaming a file broke the browsing of directory tree
+- Fix issue where FC tvDefault rules, regardless of active state, are always run
+ </pre></div>";s:14:"date_timestamp";i:1294328610;}i:13;a:9:{s:5:"title";s:59:"Critical Security Upgrade Notice for FormIt, Quip and Login";s:4:"link";s:117:"http://feedproxy.google.com/~r/modxsecurity/~3/yG5AW9A9NAo/critical-security-upgrade-notice-for-formit-quip-and-login";s:11:"description";s:513:"We received a report of a potential vulnerability in <em>FormIt</em>, <em>Quip</em> and <em>Login</em> that could be used to expose system settings including database information. <br />
+<br />
+This has been been corrected and new versions have been posted. <strong>Upgrading of FormIt, Login and Quip to the latest versions via Package Manager should be considered critical.</strong><br />
+<br />
+This only affects MODX Revolution installations that have installed the Extras FormIt, Quip and Login.<br />
+<br />";s:8:"comments";s:106:"http://forums.modx.com/thread/266/critical-security-upgrade-notice-for-formit-quip-and-login#dis-post-1672";s:7:"pubdate";s:31:"Thu, 09 Dec 2010 08:17:16 -0600";s:4:"guid";s:106:"http://forums.modx.com/thread/266/critical-security-upgrade-notice-for-formit-quip-and-login#dis-post-1672";s:10:"feedburner";a:1:{s:8:"origlink";s:106:"http://forums.modx.com/thread/266/critical-security-upgrade-notice-for-formit-quip-and-login#dis-post-1672";}s:7:"summary";s:513:"We received a report of a potential vulnerability in <em>FormIt</em>, <em>Quip</em> and <em>Login</em> that could be used to expose system settings including database information. <br />
+<br />
+This has been been corrected and new versions have been posted. <strong>Upgrading of FormIt, Login and Quip to the latest versions via Package Manager should be considered critical.</strong><br />
+<br />
+This only affects MODX Revolution installations that have installed the Extras FormIt, Quip and Login.<br />
+<br />";s:14:"date_timestamp";i:1291904236;}i:14;a:9:{s:5:"title";s:41:"phpThumb  Command-Injection Vulnerability";s:4:"link";s:99:"http://feedproxy.google.com/~r/modxsecurity/~3/k4XZ7ynoTk4/phpthumb-command-injection-vulnerability";s:11:"description";s:1238:"It has recently come to our attention that phpThumb (all versions) contains an unpatched vulnerability.<br />
+<blockquote>The application is prone to a command-injection vulnerability because it fails to adequately sanitize user-supplied input to the ’fltr&#91;&#93;’ parameter in the ’phpThumb.php’ script. <br />
+<br />
+Attackers can exploit this issue to execute arbitrary commands in the context of the webserver.<br />
+<br />
+Note that successful exploitation requires ’ImageMagick’ to be installed.<br />
+<br />
+phpThumb() 1.7.9 is affected; other versions may also be vulnerable.</blockquote>
+<br />
+If you are using phpThumb on any of your sites either as part of a plugin or standalone, you should use the following fix to secure your site: <br />
+<a href="http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279</a><br />
+<br />
+Note: This vulnerability does not affect the phpThumb that is included in the MODx Revolution distribution.<br />";s:8:"comments";s:88:"http://forums.modx.com/thread/265/phpthumb-command-injection-vulnerability#dis-post-1671";s:7:"pubdate";s:31:"Tue, 05 Oct 2010 11:01:07 -0500";s:4:"guid";s:88:"http://forums.modx.com/thread/265/phpthumb-command-injection-vulnerability#dis-post-1671";s:10:"feedburner";a:1:{s:8:"origlink";s:88:"http://forums.modx.com/thread/265/phpthumb-command-injection-vulnerability#dis-post-1671";}s:7:"summary";s:1238:"It has recently come to our attention that phpThumb (all versions) contains an unpatched vulnerability.<br />
+<blockquote>The application is prone to a command-injection vulnerability because it fails to adequately sanitize user-supplied input to the ’fltr&#91;&#93;’ parameter in the ’phpThumb.php’ script. <br />
+<br />
+Attackers can exploit this issue to execute arbitrary commands in the context of the webserver.<br />
+<br />
+Note that successful exploitation requires ’ImageMagick’ to be installed.<br />
+<br />
+phpThumb() 1.7.9 is affected; other versions may also be vulnerable.</blockquote>
+<br />
+If you are using phpThumb on any of your sites either as part of a plugin or standalone, you should use the following fix to secure your site: <br />
+<a href="http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,54874.msg316279.html#msg316279</a><br />
+<br />
+Note: This vulnerability does not affect the phpThumb that is included in the MODx Revolution distribution.<br />";s:14:"date_timestamp";i:1286294467;}i:15;a:9:{s:5:"title";s:55:"MODx Revolution 2.0.3 Addresses Pair of Vulnerabilities";s:4:"link";s:114:"http://feedproxy.google.com/~r/modxsecurity/~3/ZU4xrhDcVco/modx-revolution-2-0-3-addresses-pair-of-vulnerabilities";s:11:"description";s:1462:"The MODx Revolution 2.0.3 release addresses a pair of <a href="http://modxcms.com/forums/index.php/topic,55062.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55062.0.html" target="_blank" rel="nofollow']); return false;">reported security vulnerabilities</a> with MODx Revolution 2.0.2-pl and possibly earlier releases:<br />
+<br />
+Input passed via the &quot;modhash&quot; parameter to manager/index.php is not properly sanitized before being returned to the user and input passed via the &quot;class_key&quot; parameter to manager/controllers/default/resource/tvs.php is not properly verified before being used to include files.<br />
+<br />
+<strong>We recommend that anyone running previous versions of MODx Revolution upgrade to 2.0.3.</strong><br />
+<br />
+Download MODx Revolution 2.0.3-pl: <a href="http://modxcms.com/download/#pl" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/#pl" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/#pl</a><br />
+<br />
+Details of other improvements introduced in the 2.0.3 release can be found here: <a href="http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,55104.0.html</a>";s:8:"comments";s:103:"http://forums.modx.com/thread/264/modx-revolution-2-0-3-addresses-pair-of-vulnerabilities#dis-post-1670";s:7:"pubdate";s:31:"Thu, 30 Sep 2010 01:47:17 -0500";s:4:"guid";s:103:"http://forums.modx.com/thread/264/modx-revolution-2-0-3-addresses-pair-of-vulnerabilities#dis-post-1670";s:10:"feedburner";a:1:{s:8:"origlink";s:103:"http://forums.modx.com/thread/264/modx-revolution-2-0-3-addresses-pair-of-vulnerabilities#dis-post-1670";}s:7:"summary";s:1462:"The MODx Revolution 2.0.3 release addresses a pair of <a href="http://modxcms.com/forums/index.php/topic,55062.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55062.0.html" target="_blank" rel="nofollow']); return false;">reported security vulnerabilities</a> with MODx Revolution 2.0.2-pl and possibly earlier releases:<br />
+<br />
+Input passed via the &quot;modhash&quot; parameter to manager/index.php is not properly sanitized before being returned to the user and input passed via the &quot;class_key&quot; parameter to manager/controllers/default/resource/tvs.php is not properly verified before being used to include files.<br />
+<br />
+<strong>We recommend that anyone running previous versions of MODx Revolution upgrade to 2.0.3.</strong><br />
+<br />
+Download MODx Revolution 2.0.3-pl: <a href="http://modxcms.com/download/#pl" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/#pl" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/#pl</a><br />
+<br />
+Details of other improvements introduced in the 2.0.3 release can be found here: <a href="http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,55104.0.html</a>";s:14:"date_timestamp";i:1285829237;}i:16;a:9:{s:5:"title";s:77:"MODx Revolution Cross-Site Scripting and Local File Inclusion Vulnerabilities";s:4:"link";s:136:"http://feedproxy.google.com/~r/modxsecurity/~3/SmU0Xdv6isY/modx-revolution-cross-site-scripting-and-local-file-inclusion-vulnerabilities";s:11:"description";s:1713:"<strong>Status: Solved</strong> (See: <a href="http://modxcms.com/forums/index.php/topic,55105.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55105.0.html" target="_blank" rel="nofollow']); return false;">Notice on fix</a>)<br />
+Product: MODx Revolution<br />
+Risk: Moderate<br />
+Versions: 2.0.x<br />
+Vunerability type: Cross-Site Scripting and Local File Inclusion Vulnerabilities<br />
+Report Date: 2010-09-29<br />
+Fixed Date: 2010-09-29<br />
+<br />
+Description<br />
+Issue reported as <a href="http://secunia.com/advisories/41638" target="_blank" rel="nofollow">Secunia Advisory SA41638</a>. <br />
+<br />
+Input passed via the &quot;modahsh&quot; parameter to manager/index.php is not properly sanitized before being returned to the user and input passed via the &quot;class_key&quot; parameter to manager/controllers/default/resource/tvs.php is not properly verified before being used to include files.<br />
+<br />
+<br />
+Affected Releases<br />
+MODx Revolution 2.0.2-pl however it is possible previous releases contain the vulnerability.<br />
+<br />
+Solution<br />
+Upgrade to MODx Revolution 2.0.3 available here:  <a href="http://modxcms.com/download.html#pl" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#pl" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#pl</a><br />
+Read the <a href="http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow']); return false;">Release Announcement</a> for Revolution 2.0.3.";s:8:"comments";s:125:"http://forums.modx.com/thread/263/modx-revolution-cross-site-scripting-and-local-file-inclusion-vulnerabilities#dis-post-1669";s:7:"pubdate";s:31:"Wed, 29 Sep 2010 02:50:16 -0500";s:4:"guid";s:125:"http://forums.modx.com/thread/263/modx-revolution-cross-site-scripting-and-local-file-inclusion-vulnerabilities#dis-post-1669";s:10:"feedburner";a:1:{s:8:"origlink";s:125:"http://forums.modx.com/thread/263/modx-revolution-cross-site-scripting-and-local-file-inclusion-vulnerabilities#dis-post-1669";}s:7:"summary";s:1713:"<strong>Status: Solved</strong> (See: <a href="http://modxcms.com/forums/index.php/topic,55105.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55105.0.html" target="_blank" rel="nofollow']); return false;">Notice on fix</a>)<br />
+Product: MODx Revolution<br />
+Risk: Moderate<br />
+Versions: 2.0.x<br />
+Vunerability type: Cross-Site Scripting and Local File Inclusion Vulnerabilities<br />
+Report Date: 2010-09-29<br />
+Fixed Date: 2010-09-29<br />
+<br />
+Description<br />
+Issue reported as <a href="http://secunia.com/advisories/41638" target="_blank" rel="nofollow">Secunia Advisory SA41638</a>. <br />
+<br />
+Input passed via the &quot;modahsh&quot; parameter to manager/index.php is not properly sanitized before being returned to the user and input passed via the &quot;class_key&quot; parameter to manager/controllers/default/resource/tvs.php is not properly verified before being used to include files.<br />
+<br />
+<br />
+Affected Releases<br />
+MODx Revolution 2.0.2-pl however it is possible previous releases contain the vulnerability.<br />
+<br />
+Solution<br />
+Upgrade to MODx Revolution 2.0.3 available here:  <a href="http://modxcms.com/download.html#pl" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#pl" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#pl</a><br />
+Read the <a href="http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,55104.0.html" target="_blank" rel="nofollow']); return false;">Release Announcement</a> for Revolution 2.0.3.";s:14:"date_timestamp";i:1285746616;}i:17;a:9:{s:5:"title";s:42:"MODx Evolution SQL Injection Vulnerability";s:4:"link";s:101:"http://feedproxy.google.com/~r/modxsecurity/~3/FzjcYDRKn5w/modx-evolution-sql-injection-vulnerability";s:11:"description";s:1283:"<strong>Product:</strong> MODx Evolution<br />
+<strong>Risk:</strong> Moderate<br />
+<strong>Versions:</strong> 1.0.3 and all previous releases<br />
+<strong>Vunerability type:</strong> SQL Injection<br />
+<strong>Report Date:</strong> 2010-May-28<br />
+<strong>Fixed Date:</strong> 2010-May-28<br />
+<br />
+<strong>Description</strong><br />
+Issue reported as <a href="http://www.htbridge.ch/advisory/sql_injection_vulnerability_in_modx_cms_and_application_framework.html" target="_blank" rel="nofollow">HTB22412</a>. Attacker could potentially compromise MODx Evolution via an unsanitized variable on the /manager/index.php. <br />
+    <br />
+No actual destructive exploit has yet been created or proven. The proof of concept offered on the htbridge.ch site, and variants, can only cause a SQL error to be displayed.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODx 0.9.x/Evolution releases prior to and including MODx Evolution 1.0.3 are affected.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to MODx Evolution 1.0.4 or later: <a href="http://modxcms.com/download.html#ga" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#ga" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#ga</a>";s:8:"comments";s:90:"http://forums.modx.com/thread/262/modx-evolution-sql-injection-vulnerability#dis-post-1668";s:7:"pubdate";s:31:"Mon, 07 Jun 2010 04:59:22 -0500";s:4:"guid";s:90:"http://forums.modx.com/thread/262/modx-evolution-sql-injection-vulnerability#dis-post-1668";s:10:"feedburner";a:1:{s:8:"origlink";s:90:"http://forums.modx.com/thread/262/modx-evolution-sql-injection-vulnerability#dis-post-1668";}s:7:"summary";s:1283:"<strong>Product:</strong> MODx Evolution<br />
+<strong>Risk:</strong> Moderate<br />
+<strong>Versions:</strong> 1.0.3 and all previous releases<br />
+<strong>Vunerability type:</strong> SQL Injection<br />
+<strong>Report Date:</strong> 2010-May-28<br />
+<strong>Fixed Date:</strong> 2010-May-28<br />
+<br />
+<strong>Description</strong><br />
+Issue reported as <a href="http://www.htbridge.ch/advisory/sql_injection_vulnerability_in_modx_cms_and_application_framework.html" target="_blank" rel="nofollow">HTB22412</a>. Attacker could potentially compromise MODx Evolution via an unsanitized variable on the /manager/index.php. <br />
+    <br />
+No actual destructive exploit has yet been created or proven. The proof of concept offered on the htbridge.ch site, and variants, can only cause a SQL error to be displayed.<br />
+<br />
+<strong>Affected Releases</strong><br />
+All MODx 0.9.x/Evolution releases prior to and including MODx Evolution 1.0.3 are affected.<br />
+<br />
+<strong>Solution</strong><br />
+Upgrade to MODx Evolution 1.0.4 or later: <a href="http://modxcms.com/download.html#ga" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download.html#ga" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download.html#ga</a>";s:14:"date_timestamp";i:1275904762;}i:18;a:9:{s:5:"title";s:68:"Security updates in MODx Evolution 1.0.3. You really should upgrade.";s:4:"link";s:125:"http://feedproxy.google.com/~r/modxsecurity/~3/m_3jsk_oOpQ/security-updates-in-modx-evolution-1-0-3-you-really-should-upgrade";s:11:"description";s:1256:"The MODx Evolution 1.0.3 release addresses a number of reported security vulnerabilities with previous MODx Evolution 1.0.2 and earlier releases:<br />
+<br />
+<ul class="dis-ul"><br />
+<li> XSS possibilities with the SearchHighlight plugin (used by AjaxSearch) as reported in JVN#19774883 and JVN#46669729</li>
+<li> Unwanted information disclosure about the site structure in the TinyMCE plugin</li>
+<li> SQL Injection via WebLogin</li>
+</ul>
+<br />
+<strong>We strongly recommend that anyone running previous versions of MODx Evolution (including 0.9.x releases) consider Evolution 1.0.3 a mandatory upgrade.</strong><br />
+<br />
+Ddownload MODx Evolution 1.0.3: <a href="http://modxcms.com/download/" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/</a><br />
+<br />
+Details of other improvements introduced in the 1.0.3 release can be found here: <a href="http://modxcms.com/forums/index.php/topic,47756.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,47756.0.html" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,47756.0.html</a>";s:8:"comments";s:114:"http://forums.modx.com/thread/261/security-updates-in-modx-evolution-1-0-3-you-really-should-upgrade#dis-post-1667";s:7:"pubdate";s:31:"Thu, 01 Apr 2010 10:11:06 -0500";s:4:"guid";s:114:"http://forums.modx.com/thread/261/security-updates-in-modx-evolution-1-0-3-you-really-should-upgrade#dis-post-1667";s:10:"feedburner";a:1:{s:8:"origlink";s:114:"http://forums.modx.com/thread/261/security-updates-in-modx-evolution-1-0-3-you-really-should-upgrade#dis-post-1667";}s:7:"summary";s:1256:"The MODx Evolution 1.0.3 release addresses a number of reported security vulnerabilities with previous MODx Evolution 1.0.2 and earlier releases:<br />
+<br />
+<ul class="dis-ul"><br />
+<li> XSS possibilities with the SearchHighlight plugin (used by AjaxSearch) as reported in JVN#19774883 and JVN#46669729</li>
+<li> Unwanted information disclosure about the site structure in the TinyMCE plugin</li>
+<li> SQL Injection via WebLogin</li>
+</ul>
+<br />
+<strong>We strongly recommend that anyone running previous versions of MODx Evolution (including 0.9.x releases) consider Evolution 1.0.3 a mandatory upgrade.</strong><br />
+<br />
+Ddownload MODx Evolution 1.0.3: <a href="http://modxcms.com/download/" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/download/" target="_blank" rel="nofollow']); return false;">http://modxcms.com/download/</a><br />
+<br />
+Details of other improvements introduced in the 1.0.3 release can be found here: <a href="http://modxcms.com/forums/index.php/topic,47756.0.html" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://modxcms.com/forums/index.php/topic,47756.0.html" target="_blank" rel="nofollow']); return false;">http://modxcms.com/forums/index.php/topic,47756.0.html</a>";s:14:"date_timestamp";i:1270134666;}i:19;a:9:{s:5:"title";s:54:"Security Fix for MODx Revolution 2.0-beta2 (and beta1)";s:4:"link";s:111:"http://feedproxy.google.com/~r/modxsecurity/~3/iOJEa5BR3_0/security-fix-for-modx-revolution-2-0-beta2-and-beta1";s:11:"description";s:1450:"There has been a reported security vulnerability for MODx Revolution 2.0 beta1 and beta2. <br />
+<br />
+We have committed a temporary fix until we hit the root of the issue, which is a problem with the modAccessibleObject and Context Policy loading.<br />
+<br />
+SVN users, to fix this vulnerability, please update to r5505.<br />
+<br />
+Non-SVN users, please make the changes as illustrated here:<br />
+<a href="http://svn.modxcms.com/crucible/changelog/modx/?cs=5501" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://svn.modxcms.com/crucible/changelog/modx/?cs=5501" target="_blank" rel="nofollow']); return false;">http://svn.modxcms.com/crucible/changelog/modx/?cs=5501</a> <br />
+<br />
+and here:<br />
+<a href="http://svn.modxcms.com/crucible/changelog/modx/?cs=5505" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://svn.modxcms.com/crucible/changelog/modx/?cs=5505" target="_blank" rel="nofollow']); return false;">http://svn.modxcms.com/crucible/changelog/modx/?cs=5505</a><br />
+<br />
+Again, MODx recommends that you not use any beta products on shared or public servers without acknowledging the risk of potential undiscovered vulnerabilities. If you do choose to use such products, MODx recommends using a restricted username and/or password that is limited only to the MODx install. This also applies to file and user permissions. <br />
+<br />
+We apologize for any inconvience this might have caused.";s:8:"comments";s:100:"http://forums.modx.com/thread/260/security-fix-for-modx-revolution-2-0-beta2-and-beta1#dis-post-1666";s:7:"pubdate";s:31:"Thu, 23 Jul 2009 02:28:34 -0500";s:4:"guid";s:100:"http://forums.modx.com/thread/260/security-fix-for-modx-revolution-2-0-beta2-and-beta1#dis-post-1666";s:10:"feedburner";a:1:{s:8:"origlink";s:100:"http://forums.modx.com/thread/260/security-fix-for-modx-revolution-2-0-beta2-and-beta1#dis-post-1666";}s:7:"summary";s:1450:"There has been a reported security vulnerability for MODx Revolution 2.0 beta1 and beta2. <br />
+<br />
+We have committed a temporary fix until we hit the root of the issue, which is a problem with the modAccessibleObject and Context Policy loading.<br />
+<br />
+SVN users, to fix this vulnerability, please update to r5505.<br />
+<br />
+Non-SVN users, please make the changes as illustrated here:<br />
+<a href="http://svn.modxcms.com/crucible/changelog/modx/?cs=5501" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://svn.modxcms.com/crucible/changelog/modx/?cs=5501" target="_blank" rel="nofollow']); return false;">http://svn.modxcms.com/crucible/changelog/modx/?cs=5501</a> <br />
+<br />
+and here:<br />
+<a href="http://svn.modxcms.com/crucible/changelog/modx/?cs=5505" target="_blank" rel="nofollow" onclick="_gaq.push(['_link','http://svn.modxcms.com/crucible/changelog/modx/?cs=5505" target="_blank" rel="nofollow']); return false;">http://svn.modxcms.com/crucible/changelog/modx/?cs=5505</a><br />
+<br />
+Again, MODx recommends that you not use any beta products on shared or public servers without acknowledging the risk of potential undiscovered vulnerabilities. If you do choose to use such products, MODx recommends using a restricted username and/or password that is limited only to the MODx install. This also applies to file and user permissions. <br />
+<br />
+We apologize for any inconvience this might have caused.";s:14:"date_timestamp";i:1248334114;}}s:7:"channel";a:5:{s:5:"title";s:40:"Security Notices - MODX Community Forums";s:4:"link";s:37:"http://forums.modx.com/board/?board=8";s:11:"description";s:34:"RSS Feed for MODX Community Forums";s:10:"feedburner";a:2:{s:14:"emailserviceid";s:12:"modxsecurity";s:18:"feedburnerhostname";s:29:"https://feedburner.google.com";}s:7:"tagline";s:34:"RSS Feed for MODX Community Forums";}s:9:"textinput";a:0:{}s:5:"image";a:0:{}s:9:"feed_type";s:3:"RSS";s:12:"feed_version";s:3:"2.0";s:8:"encoding";s:5:"UTF-8";s:16:"_source_encoding";s:0:"";s:5:"ERROR";s:0:"";s:7:"WARNING";s:0:"";s:19:"_CONTENT_CONSTRUCTS";a:6:{i:0;s:7:"content";i:1;s:7:"summary";i:2;s:4:"info";i:3;s:5:"title";i:4;s:7:"tagline";i:5;s:9:"copyright";}s:16:"_KNOWN_ENCODINGS";a:3:{i:0;s:5:"UTF-8";i:1;s:8:"US-ASCII";i:2;s:10:"ISO-8859-1";}s:5:"stack";a:0:{}s:9:"inchannel";b:0;s:6:"initem";b:0;s:9:"incontent";b:0;s:11:"intextinput";b:0;s:7:"inimage";b:0;s:17:"current_namespace";b:0;s:13:"last_modified";s:31:"Thu, 10 Dec 2015 14:31:11 GMT
+";}
