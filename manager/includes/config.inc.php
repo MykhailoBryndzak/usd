@@ -9,11 +9,11 @@ $database_password = '123';
 $database_connection_charset = 'utf8';
 $database_connection_method = 'SET NAMES';
 $dbase = '`usd`';
-$table_prefix = '';
+$table_prefix = 'usd_';
 
-$lastInstallTime = 1449743124;
+$lastInstallTime = 1449847043;
 
-$site_sessionname = 'SN566953134d318';
+$site_sessionname = 'SN566ae8ffac23b';
 $https_port = '443';
 
 if(!defined('MGR_DIR'))
