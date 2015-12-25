@@ -4,8 +4,8 @@
  */
 $database_type = 'mysql';
 $database_server = 'localhost';
-$database_user = 'mike';
-$database_password = '123';
+$database_user = 'root';
+$database_password = '';
 $database_connection_charset = 'utf8';
 $database_connection_method = 'SET NAMES';
 $dbase = '`usd`';
