@@ -2,34 +2,100 @@
 
 <head>
     <title>usd | </title>
-	 <link rel="shortcut icon" href="/www/usd.dev//images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/www/usd.dev//images/favicon.ico" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link rel="stylesheet" href= css/bootstrap.min.css>
-	<link rel="stylesheet" href= /css/reset.css>
-    <link rel="stylesheet" href=/css/grid_24.css>
-    <link rel="stylesheet" href=/css/style.css>
-    <link rel="stylesheet" href=/css/slider.css>
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
-    <!-- <script src="/js/jquery-1.7.min.js"></script> -->
-    <!-- <script src="/js/jquery.easing.1.3.js"></script> -->
-    <!-- <script src="/js/tms-0.4.1.js"></script> -->
-		<base href="http://usd.dev/" />
+	<link rel="stylesheet" href= css/bootstrap.min.css>
+	<link rel="stylesheet" href= css/main.css>
+	<link rel="stylesheet" href= css/media.css>
+
+
+		<!-- <base href="http://usd.dev/" /> -->
 
 
 </head>
 <body>
+	<header>
+		<div class="container-fluid">
+			<!-- Navigation -->
+			<div class="navigation">
+				<nav class="navbar navbar-default">
+					<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+						</div>
+						
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav navbar-right">
+								[!Wayfinder? &config=`cssplay-dropdown` &startId=`0`!]
+							</ul>
+						</div><!-- /.navbar-collapse -->
+					</div>
+				</nav>
+			</div>
+			
+			<!-- Main Photo -->
+			<div class="main">
+				<img src="/assets/images/header.jpg">
+				
+				<div class="main-text">
+					<div class="container">
+						<h3 class="thin">Кабінет УЗД </h3>
+						<h3>Мирона Габріеля </h3>
 	
-    <div class="main">
-  
-	<header>                   	
-      <nav>  
-		  <ul class="menu">
-[!Wayfinder? &config=`cssplay-dropdown` &startId=`0`!]       
-		  </ul>
-      </nav>
-	   
-    </header>	
+						<p>(032) 263-11-41</p>
+						<p>пн.-пт. 9:00-18:00</p>
+						<p>суб. 9:00-12:00</p>
+						<p>нд. вихідний</p>
+						<p>вул.Симоненка, 4 (каб. 134-А)</p>
+						<p>(в приміщенні 2-ої міської поліклінніки)</p>
+					</div>
+				</div>
+
+				<!-- <div class="main-text">
+					<div id="slide">
+						<h3>Кабінет УЗД </h3>
+						<h3>Мирона Габріеля </h3>
+					
+						<p>(032) 263-11-41</p>
+						<p>пн.-пт. 9:00-18:00</p>
+						<p>суб. 9:00-12:00</p>
+						<p>нд. вихідний</p>
+						<p>вул.Симоненка, 4 (каб. 134-А)</p>
+						<p>(в приміщенні 2-ої міської поліклінніки)</p>
+					</div>
+					<div class="images">
+         
+            <div class="grid_5 ">
+				<div class="img-border">
+					<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
+					</div>
+            </div>  
+             <div class="grid_5 ">
+				<div class="img-border">
+					<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
+					</div>
+            </div> 
+                  <div class="grid_5 ">
+				<div class="img-border">
+					<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
+					</div>
+            </div> 
+            
+        </div>
+				</div> -->
+			</div>
+		</div>
+	</header>
+
 	
 		
     <div id="slide">
