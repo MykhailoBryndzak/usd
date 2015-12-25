@@ -1,2 +1,2 @@
-manager/includes/config.inc.php
-assets/cache/*
+/manager/includes/config.inc.php
+/assets/cache/*
