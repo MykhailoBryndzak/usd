@@ -2,7 +2,7 @@
 
 <head>
     <title>usd | </title>
-	 <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+	 <link rel="shortcut icon" href="/home/mike/sites/usd//images/favicon.ico" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link rel="stylesheet" href= /css/reset.css>
     <link rel="stylesheet" href=/css/grid_24.css>
@@ -13,6 +13,8 @@
     <script src="/js/jquery-1.7.min.js"></script>
     <script src="/js/jquery.easing.1.3.js"></script>
     <script src="/js/tms-0.4.1.js"></script>
+		<base href="http://usd.dev/" />
+
 
 </head>
 <body>
@@ -21,15 +23,9 @@
   
 	<header>                   	
       <nav>  
-        <ul class="menu">
-<ul><li class="active"><a href="http://usd.dev/" title="ГОЛОВНА" >ГОЛОВНА</a></li>
-<li><a href="/poslugi.html" title="ПОСЛУГИ" >ПОСЛУГИ</a></li>
-<li><a href="/secialisti.html" title="СЕЦІАЛІСТИ" >СЕЦІАЛІСТИ</a></li>
-<li class="last"><a href="/korisna-informaciya.html" title="КОРИСНА ІНФОРМАЦІЯ" >КОРИСНА ІНФОРМАЦІЯ</a><ul><li><a href="/korisna-informaciya/info_specialists.html" title="Для спеціалістів" >Для спеціалістів</a></li>
-<li class="last"><a href="/korisna-informaciya/info_pacient.html" title="Для пацієнтів" >Для пацієнтів</a></li>
-</ul></li>
-</ul>
-          </ul>
+		  <ul class="menu">
+[!Wayfinder? &config=`cssplay-dropdown` &startId=`0`!]       
+		  </ul>
       </nav>
 	   
     </header>	
@@ -48,25 +44,30 @@
 			<p>(в приміщенні 2-ої міської поліклінніки)</p>
 
             </div>
-       </div>
-    </div>
 
-<div class="container_24">
-			
-            <div class="grid_5 prefix_1">
-                <div class="img-border"><img src="images/main4.png" alt=""></div>
+		<div class="images">
+         
+            <div class="grid_5 ">
+				<div class="img-border">
+					<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
+					</div>
             </div>  
-            <div class="grid_5 prefix_1">
-                <div class="img-border"><img src="images/main3.png" alt=""></div>
-            </div>  
-            <div class="grid_5 prefix_1">
-                <div class="img-border"><img src="images/main2.png" alt=""></div>
-            </div>  
-            <div class="grid_5 prefix_1">
-                <div class="img-border"><img src="images/main1.png" alt=""></div>
-            </div>  
+             <div class="grid_5 ">
+				<div class="img-border">
+					<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
+					</div>
+            </div> 
+                  <div class="grid_5 ">
+				<div class="img-border">
+					<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
+					</div>
+            </div> 
             
         </div>
+
+       </div>
+
+    </div>
 
 <div class = main_text_all>
 	<div class="grid_6 prefix_1">
@@ -122,10 +123,10 @@
 		
 			<div class="soc-icons">
 					<p>Долучайтся:</p>
-				<a href="#"><img src="/images/soc1.png" alt=""></a>
-				<a href="#"><img src="/images/soc2.png" alt=""></a>
-				<a href="#"><img src="/images/soc3.png" alt=""></a>
-				<a href="#"><img src="/images/soc4.png" alt=""></a>
+				<a href="#"><img src="assets/images/soc1.png" alt=""></a>
+				<a href="#"><img src="assets/images/soc2.png" alt=""></a>
+				<a href="#"><img src="assets/images/soc3.png" alt=""></a>
+				<a href="#"><img src="assets/images/soc4.png" alt=""></a>
 			</div>
         </div>
      </div>

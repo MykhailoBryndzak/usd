@@ -32,7 +32,6 @@ h3 { font-family: 'PT Sans Narrow', sans-serif; font-weight:bold; font-size:30px
 .h3 {border-bottom:#2e2e2e 1px solid; padding-bottom:8px;}
 
 ul {margin:0; padding:0;list-style-image:none;}
-ul.list-1 li {padding:0px 0 14px 17px; line-height:18px; background:url(../images/marker-1.gif) 0 6px no-repeat;}
 ul.list-1 li a { font-size:14px; color:#fff; line-height:18px; }
 ul.list-1 li a:hover {color:#b09609;}
 
@@ -96,7 +95,10 @@ ul.menu li a:hover , ul.menu li.current a { color:#2E2E2E; border:none; }
 /*********************************content*************************************/
 #content {width:960px; margin:0 auto; padding:0px 0px 75px 0;}
 
-.img-border {}
+.img-border {
+ padding-right: 50px;
+ width: 90% !important}
+
 .p-border { padding-bottom:12px;}
 
 
@@ -125,7 +127,7 @@ ul.menu li a:hover , ul.menu li.current a { color:#2E2E2E; border:none; }
 
 .border-top {border-top:#2e2e2e 3px solid; padding-top:32px; margin-top:44px;}
 
-.box-2 {width430px; float:left; margin-right:50px; margin-top:27px;}
+.box-2 {width:430px; float:left; margin-right:50px; margin-top:27px;}
 .box-2 .img-border {float:left; width:264px; margin-right:10px;}
 
 
@@ -161,7 +163,7 @@ dl.adr dd a:hover {}
  background-size: cover !important;
 }
 
-img{
+.img{
  width: 94% !important;
 }
 .prefix_1{
@@ -176,10 +178,11 @@ p{
 }
 .main_text_all{
  display: inline-block;
+ margin-top: 100px;
 }
 .prefix_2{
  display: block;
- width: 35%;
+ width: 33%;
  margin-top: 24px;
  padding-left: 20px;
  font-size: 18px;
@@ -235,7 +238,77 @@ p{
  display: block;
  width: 100%;
  font-size: 18px;
- left:50%;
+ left:53%;
  top:50%;
  margin:-30px 0 0 -500px;
+}
+.disabled {
+ pointer-events: none; /* делаем ссылку неактивной */
+}
+
+
+.header2 {
+ width:100%;
+ position:absolute;
+ top:0;
+}
+
+.nav2{
+ background-color: #00B08C;
+ display: inline-block;
+ z-index: 1111;
+ position: relative;
+ margin: 3px auto 0 0;
+ width: 100%;
+ text-align: center;
+ padding-bottom: 10px;;
+}
+.info_head1{
+ display: inline-block;
+ margin-left: -435px;}
+
+.tel{
+ margin-left: 7%;
+ display: inline-block;
+ width: 109px;}
+.rob{
+ width: 100px;
+ float: left;
+ display: inline-block;
+ margin-left: 479px;
+}
+.address{
+ display: inline-block;
+
+ width: 300px;
+ margin-left: 308px;
+}
+
+.hed{
+ display: block;
+
+}
+.images{
+ display: inline-flex;
+ margin-top: 3%;
+ margin-left: 1%;
+
+}
+.news{
+ margin-left: -50px;
+}
+.news a{
+ font-size: medium;
+ margin-left: 315px;
+}
+.info_1{
+ padding-left: 100px;
+ float: left;
+ width: 500px;
+
+}
+.list_page_1{
+ float: left;
+ margin-left: -211px;
+
 }

@@ -1,22 +1,32 @@
 /*--------- slider ---------*/
 #slide {width:100%;  
 		height:506px; 
-		overflow:hidden; 
+		/*overflow:hidden; */
 		z-index:777;
 		position: relative;
-		background:url(../images/header.jpg)no-repeat center center ;
+		background:url(/assets/images/header.jpg)no-repeat center center ;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover; ;}
+	background-size: cover; }
 
 .slider {width:1680px; 
 		height:506px;
 		overflow:hidden; 
 		position:relative; 
 		left:50%;
-	background:url(../images/header.jpg) ;
+	background:url(/assets/images/header.jpg) ;
 		margin-left:-840px;}
 		
 .items { display:none;}
 
+
+#slide2 {
+	margin-top: 100px;
+	width:100%;
+	height:259px;
+	overflow:hidden;
+	z-index:777;
+	position: relative;
+	background:url(/assets/images/header.jpg) ;
+	background-size: cover; }
