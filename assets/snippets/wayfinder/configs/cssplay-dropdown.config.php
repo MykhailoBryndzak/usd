@@ -1,8 +1,8 @@
 <?php
 	$level = 3;
 	
-	$parentClass = 'hide';
-	$outerClass = 'menu';
+	// $parentClass = 'hide';
+	// $outerClass = 'menu';
 
 	$outerTpl = '@CODE: [+wf.wrapper+]';
 

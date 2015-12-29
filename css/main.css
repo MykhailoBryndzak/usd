@@ -1,3 +1,12 @@
+html,
+body,
+h1,h2,h3,h4,h5,h6,
+p,
+li,
+a {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .container-fluid {
 	padding: 0;
 }
@@ -43,4 +52,67 @@
 
 .thin {
 	font-weight: 400;
+}
+.main-text h3 {
+	color: #292929;
+}
+p.big-text {
+	color: #292929;
+}
+.diff-color {
+	color: #00b08c;
+}
+.main-text h3 b {
+	font-weight: 600;
+}
+
+footer {
+	background-color: #cfd8dc;
+	padding: 20px;
+}
+footer ul {
+	list-style: none;
+	padding-left: 0;
+	text-transform: capitalize;
+}
+footer ul a {
+	color: #222;
+}
+.diff-bg-col {
+	background-color: #00b08c;
+	padding: 10px 20px 20px;
+	color: #fff;
+}
+.diff-bg-col ul {
+	padding-left: 20px;
+}
+.diff-bg-col hr {
+	border-top: 2px solid #fff;
+}
+.main-page-text hr {
+	border-top: 2px solid #00b08c;
+}
+.social a {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 26px;
+}
+.social .blue-border {
+	border: 2px solid #00a1d9;
+	color: #00a1d9;
+}
+.social .violet-border {
+	border: 2px solid #635ec1;
+	color: #635ec1;
+}
+.social .orange-border {
+	border: 2px solid #ff8900;
+	color: #ff8900;
+}
+.social .red-border {
+	border: 2px solid #f23005;
+	color: #f23005;
 }

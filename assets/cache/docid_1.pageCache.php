@@ -4,8 +4,8 @@
     <title>usd | </title>
 	<link rel="shortcut icon" href="/www/usd.dev//images/favicon.ico" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href= css/bootstrap.min.css>
 	<link rel="stylesheet" href= css/main.css>
 	<link rel="stylesheet" href= css/media.css>
@@ -35,7 +35,7 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 							<ul class="nav navbar-nav navbar-right">
-								[!Wayfinder? &config=`cssplay-dropdown` &startId=`0`!]
+								[!Wayfinder? &config=`cssplay-dropdown` &innerTpl=`main_menu_inner_tpl` &startId=`0`!]
 							</ul>
 						</div><!-- /.navbar-collapse -->
 					</div>
@@ -48,154 +48,117 @@
 				
 				<div class="main-text">
 					<div class="container">
-						<h3 class="thin">Кабінет УЗД </h3>
-						<h3>Мирона Габріеля </h3>
+						<h3 class="thin">Кабінет УЗД</h3>
+						<h3><b>Мирона Габріеля</b></h3>
 	
-						<p>(032) 263-11-41</p>
-						<p>пн.-пт. 9:00-18:00</p>
-						<p>суб. 9:00-12:00</p>
-						<p>нд. вихідний</p>
-						<p>вул.Симоненка, 4 (каб. 134-А)</p>
-						<p>(в приміщенні 2-ої міської поліклінніки)</p>
+						<p class="big-text">
+							<span class="diff-color"><b>(032) 263-11-41</b></span><br>
+							<span class="diff-color"><b>пн.-пт.</b></span> 9:00-18:00 <br>
+							<span class="diff-color"><b>суб.</b></span> 9:00-12:00<br>
+							<span class="diff-color"><b>нд.</b></span> вихідний<br>
+							<span class="diff-color"><small>вул.</small> Симоненка, 4 (<small>каб.</small> 134-А)</span><br>
+							<span class="diff-color"><small>(в приміщенні 2-ої міської поліклінніки)</small></span>
 					</div>
 				</div>
 
-				<!-- <div class="main-text">
-					<div id="slide">
-						<h3>Кабінет УЗД </h3>
-						<h3>Мирона Габріеля </h3>
-					
-						<p>(032) 263-11-41</p>
-						<p>пн.-пт. 9:00-18:00</p>
-						<p>суб. 9:00-12:00</p>
-						<p>нд. вихідний</p>
-						<p>вул.Симоненка, 4 (каб. 134-А)</p>
-						<p>(в приміщенні 2-ої міської поліклінніки)</p>
-					</div>
-					<div class="images">
-         
-            <div class="grid_5 ">
-				<div class="img-border">
-					<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
-					</div>
-            </div>  
-             <div class="grid_5 ">
-				<div class="img-border">
-					<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
-					</div>
-            </div> 
-                  <div class="grid_5 ">
-				<div class="img-border">
-					<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
-					</div>
-            </div> 
-            
-        </div>
-				</div> -->
+				<div class="main-info-blocks">
+					<div class="container">
+	<div class="col-sm-4">
+		<div class="img-border">
+			<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
+		</div>
+	</div>  
+	<div class="col-sm-4">
+		<div class="img-border">
+			<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
+		</div>
+	</div> 
+	<div class="col-sm-4">
+		<div class="img-border">
+			<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
+		</div>
+	</div>
+</div>
+				</div>
 			</div>
 		</div>
 	</header>
 
+<div class = "main_text_all container">
+	<div class="row">
+		<div class="col-md-8 main-page-text">
+	<h2 class="h2">КАБІНЕТ УЗД МИРОНА ГАБРІЕЛЯ</h2>
 	
-		
-    <div id="slide">
-		<div class="grid_6 prefix_2_1">
-			<h3>Кабінет УЗД </h3>
-	<h3>Мирона Габріеля </h3>
+	<hr>
 
-	<p>(032) 263-11-41</p>
-			<p>пн.-пт. 9:00-18:00</p>
-			<p>суб. 9:00-12:00</p>
-			<p>нд. вихідний</p>
-			<p>вул.Симоненка, 4 (каб. 134-А)</p>
-			<p>(в приміщенні 2-ої міської поліклінніки)</p>
-
-            </div>
-
-		<div class="images">
-         
-            <div class="grid_5 ">
-				<div class="img-border">
-					<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
-					</div>
-            </div>  
-             <div class="grid_5 ">
-				<div class="img-border">
-					<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
-					</div>
-            </div> 
-                  <div class="grid_5 ">
-				<div class="img-border">
-					<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
-					</div>
-            </div> 
-            
-        </div>
-
-       </div>
-
-    </div>
-
-<div class = main_text_all>
-	<div class="grid_6 prefix_1">
-            	<h2 class="h2 top-6">КАБІНЕТ УЗД МИРОНА ГАБРІЕЛЯ</h2>
-
-	 <h4><p> <font color= #4ACC72>Ультразвукова діагностика (УЗД) </font>є одним із безпечних методів обстеження в сучасній медичній практиці. Даний метод успішно застосовується в медицині  більше 40 років і не потребує серйозної підготовки. </p>
+	<p><span class="diff-color">Ультразвукова діагностика (УЗД) </span>є одним із безпечних методів обстеження в сучасній медичній практиці. Даний метод успішно застосовується в медицині  більше 40 років і не потребує серйозної підготовки.</p>
 	
-		 <p><font color= #4ACC72>Основою методу є</font> взаємодія ультразвукових хвиль з тканинами людини. В сучасній медицини ультразвукова діагностика займає домінуючу позицію в лікувально-діагностичному процесі, а її обов’язкове використання входить до стандартів лікування майже всіх нозологій. </p>				
+	<p><span class="diff-color">Основою методу є</span> взаємодія ультразвукових хвиль з тканинами людини. В сучасній медицини ультразвукова діагностика займає домінуючу позицію в лікувально-діагностичному процесі, а її обов’язкове використання входить до стандартів лікування майже всіх нозологій.</p>				
 	
-		 <p><font color= #4ACC72> Підвищена зацікавленість</font> до ультразвукової діагностики тісно пов’язана з постійним удосконаленням устаткування для досліджень. В свою чергу це дозволяє  розширювати і поглиблювати методичний рівень обстежень. На даний час ультразвукова діагностична техніка дозволяє спеціалістам працювати в реальному часі, отримувати об’ємні зображення в різноманітних площинах. </p>
+	<p><span class="diff-color"> Підвищена зацікавленість</span> до ультразвукової діагностики тісно пов’язана з постійним удосконаленням устаткування для досліджень. В свою чергу це дозволяє  розширювати і поглиблювати методичний рівень обстежень. На даний час ультразвукова діагностична техніка дозволяє спеціалістам працювати в реальному часі, отримувати об’ємні зображення в різноманітних площинах.</p>
 	
-		 <p><font color= #4ACC72> УЗД допомагає вирішити</font> питання подальшого лікування значної частини захворювань сечостатевої системи, шлунково-кишкових захворювань, серцево-судинної системи. Крім того лікарю отримають цінну інформацію для подальших кроків  в  неврології, гінекології, акушерстві, ендокринології та онкології.</p>
+	<p><span class="diff-color"> УЗД допомагає вирішити</span> питання подальшого лікування значної частини захворювань сечостатевої системи, шлунково-кишкових захворювань, серцево-судинної системи. Крім того лікарю отримають цінну інформацію для подальших кроків  в  неврології, гінекології, акушерстві, ендокринології та онкології.</p>
 	
-		 <p><font color= #4ACC72> УЗД допомагає визначити</font> захворювання в ранній стадії до того, як воно проявиться клінічно. Таким чином можна запобігти прогресуванню хвороби та підібрати ефективну програму лікування.</p>
+	<p><span class="diff-color"> УЗД допомагає визначити</span> захворювання в ранній стадії до того, як воно проявиться клінічно. Таким чином можна запобігти прогресуванню хвороби та підібрати ефективну програму лікування.</p>
 	 
-		 <p><font color= #4ACC72>УЗД успішно використовується</font> при обстеженні вагітних на різних термінах вагітності. Діагностика застосовується для контролю стану матері та плоду на протязі всього терміну вагітності. </p></h4>
-            </div>
-	<div class="grid_6 prefix_2">
-	<h3> ПЕРЕВАГИ УЛЬТРАЗВУКОВОЇ <span style=" padding-left: 70px;">ДІАГНОСТИКИ</span> </h3>
+	<p><span class="diff-color">УЗД успішно використовується</span> при обстеженні вагітних на різних термінах вагітності. Діагностика застосовується для контролю стану матері та плоду на протязі всього терміну вагітності.</p>
+</div>
+		<div class="col-md-4 diff-bg-col">
+	<h3 class="text-center">ПЕРЕВАГИ УЛЬТРАЗВУКОВОЇ ДІАГНОСТИКИ</h3>
+	
+	<hr>
 
-	<p>Відносна  простота, доступність та низька собівартість процедури.</p>
-	<p>Висока точність і достовірність отриманих результатів без хірургічного втручання.</p>
-	<p>Не шкідливость для організму завдяки відсутності іонізуючого опромінення в порівнянні з іншими променевими методами дослідженнь.</p>
-	<p>Можливість багаторазового використання УЗД для різних категорій населення (наприклад жінки на різних етапах вагітності, особи із захворюваннями щитоподібної залози)</p>
-	<p>Виявляти органічну патологію та аномалії розвитку на початкових (до клінічних) стадіях захворювання.</p>
-	<p>Проводити скринінгові дослідження.</p>
-	<p>Оцінювати динаміку розвитку патологічного процесу в часі і тому числі і під час лікування.</p>
-            </div>
-
+	<ul>
+		<li>Відносна  простота, доступність та низька собівартість процедури.</li>
+		<li>Висока точність і достовірність отриманих результатів без хірургічного втручання.</li>
+		<li>Не шкідливость для організму завдяки відсутності іонізуючого опромінення в порівнянні з іншими променевими методами дослідженнь.</li>
+		<li>Можливість багаторазового використання УЗД для різних категорій населення (наприклад жінки на різних етапах вагітності, особи із захворюваннями щитоподібної залози)</li>
+		<li>Виявляти органічну патологію та аномалії розвитку на початкових (до клінічних) стадіях захворювання.</li>
+		<li>Проводити скринінгові дослідження.</li>
+		<li>Оцінювати динаміку розвитку патологічного процесу в часі і тому числі і під час лікування.</li>
+	</ul>
+</div>
+	</div>
 </div>
 <!--==============================footer=================================-->
   <footer>
-  	<div class="container_24">
-		        <div class="grid_12_1">  
-					<p>Кабінет УЗД Мирона Габріеля</p>
-					<p>(067) 670 670 67</p>
-					<p>вул.Городоцька, 28/18(каб.306)</p>
-			    </div>
-		
-		        <div class="grid_12_1_2">  
-					<p>пн.-пт. 9:00-19:00</p>
-					<p>суб. 9:00-15:00</p>
-					<p>нд. вихфдний</p>
-			    </div>
-				
-						
-		        <div class="grid_12_1_3">  
-					[!Wayfinder? &startId=`0`!]
-			    </div>
-
-		
-        <div class="grid_12">  
-		
-			<div class="soc-icons">
-					<p>Долучайтся:</p>
-				<a href="#"><img src="assets/images/soc1.png" alt=""></a>
-				<a href="#"><img src="assets/images/soc2.png" alt=""></a>
-				<a href="#"><img src="assets/images/soc3.png" alt=""></a>
-				<a href="#"><img src="assets/images/soc4.png" alt=""></a>
+  	<div class="container clearfix">
+		<div class="row">
+			<p class="col-sm-6 col-md-3">
+				Кабінет УЗД Мирона Габріеля <br>
+				(067) 670 670 67 <br>
+				вул.Городоцька, 28/18(каб.306)
+			</p>
+			<p class="col-sm-6 col-md-3">
+				пн.-пт. 9:00-19:00 <br>
+				суб. 9:00-15:00 <br>
+				нд. вихідний
+			</p>
+			<div class="col-sm-6 col-md-3">
+				[!Wayfinder? &startId=`0`!]
 			</div>
-        </div>
+			<p class="col-sm-6 col-md-3 social text-center">
+				Долучайтся: <br><br>
+				<span class="valign">
+					<a href="#" title="vk.com" class="blue-border">
+						<i class="fa fa-vk"></i>
+					</a>
+					<a href="#" title="facebook.com" class="violet-border">
+						<i class="fa fa-facebook"></i>
+					</a>
+					<a href="#" title="ok.ru" class="orange-border">
+						<i class="fa fa-odnoklassniki"></i>
+					</a>
+					<a href="#" title="google+" class="red-border">
+						<i class="fa fa-google-plus"></i>
+					</a>
+				</span>
+			</p>
+		</div>
+		<br>
+		<div class="row">
+			<p class="text-center">&copy;2015 Astwellsoft</p>
+		</div>
      </div>
   </footer>
 <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
