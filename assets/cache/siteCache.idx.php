@@ -117,13 +117,13 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 {{tml lan}}
 <head>
     <title>[(site_name)] | [*longtitle*]</title>
-	<link rel="shortcut icon" href="[(base_path)]/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]" />
 	<link href=\'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic\' rel=\'stylesheet\' type=\'text/css\'>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href= css/bootstrap.min.css>
-	<link rel="stylesheet" href= css/main.css>
-	<link rel="stylesheet" href= css/media.css>
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/media.css">
 
 
 		<!-- <base href="[(site_url)]" /> -->
@@ -182,7 +182,11 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 			</div>
 		</div>
 	</header>
-';$c['service'] = '[*table*]';$c['spesialist'] = '<div class="grid_16 prefix_1_11">
+';$c['service'] = '<div class="container with-table">
+	<h3 class="text-center bb-green"><span>Розклад оглядів по системах і органах</span></h3>
+	[*table*]
+	<br>
+</div>';$c['spesialist'] = '<div class="grid_16 prefix_1_11">
             	<h2 class="h2 top-3">Наші спеціалісти:</h2>
                 <div class="wrap p-border top-8">
                 	<div class="box-1">
@@ -215,54 +219,65 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 {{tml lan}}
 <head>
     <title>[(site_name)] | [*longtitle*]</title>
-	 <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="[(base_path)]/images/favicon.ico" type="image/x-icon">
     <meta http-equiv="Content-Type" content="text/html; charset=[(modx_charset)]" />
-	<link rel="stylesheet" href=/css/bootstrap.min.css>
-	<link rel="stylesheet" href=/css/reset.css>
-	<link rel="stylesheet" href=/css/grid_24.css>
-	<link rel="stylesheet" href=/css/style.css>
-	<link rel="stylesheet" href=/css/slider.css>
-    <link href=\'http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700\' rel=\'stylesheet\' type=\'text/css\'>
-    <link href=\'http://fonts.googleapis.com/css?family=Holtwood+One+SC\' rel=\'stylesheet\' type=\'text/css\'>
-	<!-- <script src="/js/jquery-1.7.min.js"></script> -->
-	<!-- <script src="/js/jquery.easing.1.3.js"></script> -->
-	<!-- <script src="/js/tms-0.4.1.js"></script> -->
+	<link href=\'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=latin,cyrillic\' rel=\'stylesheet\' type=\'text/css\'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href= /css/bootstrap.min.css>
+	<link rel="stylesheet" href= /css/main.css>
+	<link rel="stylesheet" href= /css/media.css>
+
 	<base href="[(site_url)]" />
 
 </head>
 <body>
-	
-    <div class="main">
-<div class = "header2"> 
-	
-	<div class="hed">
-		<div class="info_head1"><p>Кабінет УЗД </p>
-				 <p>Мирона Габріеля </p></div>
-			
-	<div class="tel"><p>(032) 263-11-41</p></div>
-	
-			       <div class ="rob">
-					<p>пн.-пт. 9:00-18:00</p>
-					<p>суб. 9:00-12:00</p>
-					<p>нд. вихідний</p></div>
-	
-		<div class="address"><p>вул.Симоненка, 4 (каб. 134-А)</p>
-			<p>(в приміщенні 2-ої міської поліклінніки)</p></div>
-	</div>
-	
-      <nav class="nav2">  
-		  <ul class="menu">
-[!Wayfinder? &config=`cssplay-dropdown` &startId=`0`!]       
-		  </ul>
-      </nav>
-	   
-    </div>	
-	
-		
-    <div id="slide2">
-       </div>
-    </div>
-';$c['main_image'] = '<div class="container">
+	<header>
+		<div class="container hidden-sm hidden-xs header-business-card">
+			<div class="col-md-3">
+				<h3>Кабінет УЗД </h3>
+				<h3><b>Мирона Габріеля</b></h3>
+			</div>
+			<div class="col-md-3">
+				<p><big><b>(032) 263-11-41</b></big></p>
+			</div>
+			<div class="col-md-3">
+				<p class="">
+					<b>пн.-пт.</b> 9:00-18:00 <br>
+					<b>суб.</b> 9:00-12:00 <br>
+					<b>нд.</b> вихідний
+				</p>
+			</div>
+			<div class="col-md-3">
+				<p>
+					<big>вул.Симоненка, 4 (каб. 134-А)</big> <br>
+					<small>(в приміщенні 2-ої міської поліклінніки)</small>
+				</p>
+			</div>
+		</div>
+		<!-- Navigation -->
+		<div class="site-navigation">
+			<nav class="navbar navbar-default">
+				<div class="container">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav navbar-right">
+							[!Wayfinder? &config=`cssplay-dropdown` &innerTpl=`main_menu_inner_tpl` &startId=`0`!]
+						</ul>
+					</div><!-- /.navbar-collapse -->
+				</div>
+			</nav>
+		</div>
+	</header>';$c['main_image'] = '<div class="container">
 	<div class="col-sm-4">
 		<div class="img-border">
 			<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
@@ -384,4 +399,4 @@ include($modx->config[\'base_path\'].\'assets/plugins/managermanager/mm.inc.php\
 
 $_CM_URL = $modx->config[\'site_url\'] . $_CM_BASE;
 
-require(MODX_BASE_PATH. $_CM_BASE .\'codemirror.plugin.php\');';$p['CodeMirrorProps']='&theme=Theme;list;default,ambiance,blackboard,cobalt,eclipse,elegant,erlang-dark,lesser-dark,midnight,monokai,neat,night,rubyblue,solarized,twilight,vibrant-ink,xq-dark,xq-light; &indentUnit=Indent unit;int;4 &tabSize=The width of a tab character;int;4 &lineWrapping=lineWrapping;list;true,false;true &matchBrackets=matchBrackets;list;true,false;true &activeLine=activeLine;list;true,false;false &emmet=emmet;list;true,false;true &search=search;list;true,false;true ';$p['TransAlias']='require MODX_BASE_PATH.\'assets/plugins/transalias/plugin.transalias.php\';';$p['TransAliasProps']='&table_name=Trans table;list;common,russian,dutch,german,czech,utf8,utf8lowercase;russian &char_restrict=Restrict alias to;list;lowercase alphanumeric,alphanumeric,legal characters;lowercase alphanumeric &remove_periods=Remove Periods;list;Yes,No;No &word_separator=Word Separator;list;dash,underscore,none;dash &override_tv=Override TV name;string; ';$p['FileSource']='require MODX_BASE_PATH.\'assets/plugins/filesource/plugin.filesource.php\';';$e = &$this->pluginEvent;$e['OnBeforeDocFormSave']=array('ManagerManager');$e['OnBeforeManagerLogin']=array('Forgot Manager Login');$e['OnBeforePluginFormSave']=array('FileSource');$e['OnBeforeSnipFormSave']=array('FileSource');$e['OnChunkFormRender']=array('CodeMirror');$e['OnDocDuplicate']=array('ManagerManager');$e['OnDocFormPrerender']=array('ManagerManager');$e['OnDocFormRender']=array('CodeMirror','ManagerManager');$e['OnDocFormSave']=array('ManagerManager');$e['OnInterfaceSettingsRender']=array('TinyMCE Rich Text Editor');$e['OnManagerAuthentication']=array('Forgot Manager Login');$e['OnManagerLoginFormRender']=array('Forgot Manager Login');$e['OnModFormRender']=array('CodeMirror');$e['OnPluginFormPrerender']=array('FileSource');$e['OnPluginFormRender']=array('ManagerManager','CodeMirror','FileSource');$e['OnRichTextEditorInit']=array('TinyMCE Rich Text Editor');$e['OnRichTextEditorRegister']=array('TinyMCE Rich Text Editor');$e['OnSnipFormPrerender']=array('FileSource');$e['OnSnipFormRender']=array('FileSource','CodeMirror');$e['OnStripAlias']=array('TransAlias');$e['OnTempFormRender']=array('CodeMirror');$e['OnTVFormRender']=array('ManagerManager');
+require(MODX_BASE_PATH. $_CM_BASE .\'codemirror.plugin.php\');';$p['CodeMirrorProps']='&theme=Theme;list;default,ambiance,blackboard,cobalt,eclipse,elegant,erlang-dark,lesser-dark,midnight,monokai,neat,night,rubyblue,solarized,twilight,vibrant-ink,xq-dark,xq-light; &indentUnit=Indent unit;int;4 &tabSize=The width of a tab character;int;4 &lineWrapping=lineWrapping;list;true,false;true &matchBrackets=matchBrackets;list;true,false;true &activeLine=activeLine;list;true,false;false &emmet=emmet;list;true,false;true &search=search;list;true,false;true ';$p['TransAlias']='require MODX_BASE_PATH.\'assets/plugins/transalias/plugin.transalias.php\';';$p['TransAliasProps']='&table_name=Trans table;list;common,russian,dutch,german,czech,utf8,utf8lowercase;russian &char_restrict=Restrict alias to;list;lowercase alphanumeric,alphanumeric,legal characters;lowercase alphanumeric &remove_periods=Remove Periods;list;Yes,No;No &word_separator=Word Separator;list;dash,underscore,none;dash &override_tv=Override TV name;string; ';$p['FileSource']='require MODX_BASE_PATH.\'assets/plugins/filesource/plugin.filesource.php\';';$e = &$this->pluginEvent;$e['OnBeforeDocFormSave']=array('ManagerManager');$e['OnBeforeManagerLogin']=array('Forgot Manager Login');$e['OnBeforePluginFormSave']=array('FileSource');$e['OnBeforeSnipFormSave']=array('FileSource');$e['OnChunkFormRender']=array('CodeMirror');$e['OnDocDuplicate']=array('ManagerManager');$e['OnDocFormPrerender']=array('ManagerManager');$e['OnDocFormRender']=array('ManagerManager','CodeMirror');$e['OnDocFormSave']=array('ManagerManager');$e['OnInterfaceSettingsRender']=array('TinyMCE Rich Text Editor');$e['OnManagerAuthentication']=array('Forgot Manager Login');$e['OnManagerLoginFormRender']=array('Forgot Manager Login');$e['OnModFormRender']=array('CodeMirror');$e['OnPluginFormPrerender']=array('FileSource');$e['OnPluginFormRender']=array('ManagerManager','CodeMirror','FileSource');$e['OnRichTextEditorInit']=array('TinyMCE Rich Text Editor');$e['OnRichTextEditorRegister']=array('TinyMCE Rich Text Editor');$e['OnSnipFormPrerender']=array('FileSource');$e['OnSnipFormRender']=array('FileSource','CodeMirror');$e['OnStripAlias']=array('TransAlias');$e['OnTempFormRender']=array('CodeMirror');$e['OnTVFormRender']=array('ManagerManager');

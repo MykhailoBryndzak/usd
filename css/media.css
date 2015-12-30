@@ -30,6 +30,9 @@
 	p.big-text {
 		font-size: 22px;
 	}
+	.bb-green {
+		font-size: 36px;
+	}
 }
 @media (min-width: 1200px) {
 	.main-info-blocks {

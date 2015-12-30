@@ -20,6 +20,7 @@ a {
 }
 .navbar-default {
 	background-color: rgba(255,255,255,.5);
+	border-radius: 0;
 	border: none;
 }
 .navbar-nav>li {
@@ -115,4 +116,114 @@ footer ul a {
 .social .red-border {
 	border: 2px solid #f23005;
 	color: #f23005;
+}
+.header-business-card {
+	padding: 5px;
+}
+.header-business-card h3 {
+	margin: 0;
+	font-weight: 300;
+}
+.header-business-card h3 b,
+.header-business-card p b {
+	font-weight: 600;
+}
+.site-navigation .navbar-default {
+	background-color: #00b08c;
+	border-bottom: 1px solid #00b08c;
+}
+.site-navigation .navbar-nav>li.active {
+	border-color: #fff;
+}
+.site-navigation .navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-weight: 600;
+}
+
+.site-navigation .navbar-default .navbar-nav>.active>a:hover,
+.site-navigation .navbar-default .navbar-nav>li>a:hover {
+	color: #555;
+}
+.site-navigation .navbar-nav>li:hover {
+	border-color: rgba(255,255,255,.3);
+}
+.bb-green {
+	margin-bottom: 20px;
+}
+.bb-green span {
+	text-align: center;
+	padding: 0 10px 5px;
+	border-bottom: 2px solid #00b08c;
+	text-transform: uppercase;
+}
+table {
+	width: 100%;
+}
+table tr td {
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	vertical-align: middle;
+}
+table tr td:last-child{
+	border-right: none;
+}
+table tr:nth-child(2n) td {
+	background-color: #0f0;
+}
+table tr:nth-child(2n+1) td {
+	background-color: #f0f;
+}
+table tr td:first-child {
+	color: #fff;
+}
+
+table tr:nth-child(2n) td:first-child {
+	background-color: #29d3b0;
+	font-size: 18px;
+}
+table tr:nth-child(2n) td:nth-child(n+2) {
+	background-color: #bef2e7;
+	font-size: 14px;
+}
+table tr:nth-child(2n) td:last-child {
+	background-color: #e3faf5;
+	font-size: 24px;
+}
+
+
+table tr:nth-child(2n+1) td:first-child {
+	background-color: #77e3cd;
+	font-size: 18px;
+}
+table tr:nth-child(2n+1) td:nth-child(n+2) {
+	background-color: #9febdc;
+	font-size: 14px;
+}
+table tr:nth-child(2n+1) td:last-child {
+	background-color: #e9fbf7;
+	font-size: 24px;
+}
+
+table tr:first-child td:first-child {
+	background-color: #19b897;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+table tr:first-child td:nth-child(n+2) {
+	background-color: #92e9d7;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+table tr:first-child td:last-child {
+	background-color: #d1f6ee;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+}
+
+table tr:first-child td:first-child strong {
+	font-weight: 500;
+}
+table p {
+	margin: 10px 2px;
 }
