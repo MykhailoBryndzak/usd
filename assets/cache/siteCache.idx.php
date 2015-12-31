@@ -113,7 +113,8 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
   </footer>
 <script type="text/javascript" src="/js/jquery-2.1.4.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-<script src="/js/tms-0.4.1.js"></script>';$c['main_header'] = '<!DOCTYPE html>
+<script src="/js/tms-0.4.1.js"></script>
+<script src="/js/app.js"></script>';$c['main_header'] = '<!DOCTYPE html>
 {{tml lan}}
 <head>
     <title>[(site_name)] | [*longtitle*]</title>
@@ -186,31 +187,54 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 	<h3 class="text-center bb-green"><span>Розклад оглядів по системах і органах</span></h3>
 	[*table*]
 	<br>
-</div>';$c['spesialist'] = '<div class="grid_16 prefix_1_11">
-            	<h2 class="h2 top-3">Наші спеціалісти:</h2>
-                <div class="wrap p-border top-8">
-                	<div class="box-1">
-						<div class="img-border"><img src="assets/images/per1.png" alt=""></div>
-                        <p class="clr-1 line-height"><strong>Габріель Мирон Володимирович</strong></p>
-                        <p>Асистент кафедри променевої діагностики ФПО ЛМНУ ім. Д. Галицького, лікар вищої категорії<br></p>
-                    </div>
-                    <div class="box-1">
-						<div class="img-border"><img src="assets/images/per2.png" alt=""></div>
-                        <p class="clr-1 line-height"><strong>Лозинська Наталя Василівна</strong><br></p>
-                        <p>Асистент кафедри променевої діагностики ФПО ЛМНУ ім. Д. Галицького, лікар вищої категорії<br> </p>
-                    </div>
-                    <div class="box-1">
-						<div class="img-border"><img src="assets/images/per3.png" alt=""></div>
-                        <p class="clr-1 line-height"><strong>Салашник Олег Степанович</strong><br></p>
-                        <p>Лікар першої категорії<br></p>
-                    </div>
-                    <div class="box-1">
-						<div class="img-border"><img src="assets/images/per4.png" alt=""></div>
-                        <p class="clr-1 line-height"><strong>Трнбич Наталя Яремівна</strong><br></p>
-                        <p>Лікар ультразвукової діагностики<br></p>
-                    </div>
-                </div>
-            </div>';$c['info'] = '';$c['home'] = '<div class = "main_text_all container">
+</div>';$c['spesialist'] = '<div class="container specialists">
+	<h2 class="uppercase bb-green"><span>Наші спеціалісти</span></h2>
+	<br>
+	<div class="row">
+		<div class="col-xs-6 col-md-3">
+			<div class="specialist-photo">
+				<img src="assets/images/gabriel.jpg" alt="Габріель Мирон Володимирович">
+			</div>
+			<div class="info-specialist">
+				<h5><strong>Габріель <br>
+					Мирон Володимирович</strong></h5>
+				<hr>
+				<p>Асистент кафедри променевої діагностики ФПО ЛМНУ ім. Д. Галицького, лікар вищої категорії</p>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="specialist-photo">
+				<img src="assets/images/lozynska.jpg" alt="Лозинська Наталя Василівна">
+			</div>
+			<div class="info-specialist">
+				<h5><strong>Лозинська <br>Наталя Василівна</strong></h5>
+				<hr>
+				<p>Асистент кафедри променевої діагностики ФПО ЛМНУ ім. Д. Галицького, лікар вищої категорії</p>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="specialist-photo">
+				<img src="assets/images/salashnyk.jpg" alt="Салашник Олег Степанович">
+			</div>
+			<div class="info-specialist">
+				<h5><strong>Салашник <br>Олег Степанович</strong></h5>
+				<hr>
+				<p>Лікар першої категорії</p>
+			</div>
+		</div>
+		<div class="col-xs-6 col-md-3">
+			<div class="specialist-photo">
+				<img src="assets/images/trubych.jpg" alt="Трубич Наталя Яремівна">
+			</div>
+			<div class="info-specialist">
+				<h5><strong>Трубич <br>Наталя Яремівна</strong></h5>
+				<hr>
+				<p>Лікар ультразвукової діагностики</p>
+			</div>
+		</div>
+	</div>
+	<br>
+</div>';$c['info'] = '';$c['home'] = '<div class = "main_text_all container">
 	<div class="row">
 		{{main_colum_1}}
 		{{main_colum_2}}
@@ -238,9 +262,11 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 				<h3><b>Мирона Габріеля</b></h3>
 			</div>
 			<div class="col-md-3">
+				<div class="header-items phone"></div>
 				<p><big><b>(032) 263-11-41</b></big></p>
 			</div>
 			<div class="col-md-3">
+				<div class="header-items clock"></div>
 				<p class="">
 					<b>пн.-пт.</b> 9:00-18:00 <br>
 					<b>суб.</b> 9:00-12:00 <br>
@@ -248,6 +274,7 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 				</p>
 			</div>
 			<div class="col-md-3">
+				<div class="header-items home"></div>
 				<p>
 					<big>вул.Симоненка, 4 (каб. 134-А)</big> <br>
 					<small>(в приміщенні 2-ої міської поліклінніки)</small>
@@ -277,20 +304,33 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 				</div>
 			</nav>
 		</div>
-	</header>';$c['main_image'] = '<div class="container">
+	</header>
+	<div class="container-fluid bg-img"></div>';$c['main_image'] = '<div class="container main-img-blocks">
 	<div class="col-sm-4">
-		<div class="img-border">
-			<a href="[~13~]"><img src="assets/images/main11.png"  alt="">	</a>
+		<div class="img-border text-center">
+			<a href="[~13~]">
+				<img src="assets/images/patient.png"  alt="Info for patients">
+				<br>
+				<span class="uppercase"><big>Інформація для пацієнтів</big></span>
+			</a>
 		</div>
 	</div>  
 	<div class="col-sm-4">
-		<div class="img-border">
-			<a href ="[~14~]"><img src="assets/images/main22.png"  alt="">	</a>
+		<div class="img-border text-center">
+			<a href ="[~14~]">
+				<img src="assets/images/specialist.png"  alt="Info for specialists">
+				<br>
+				<span class="uppercase"><big>Інформація для спеціалістів</big></span>
+			</a>
 		</div>
 	</div> 
 	<div class="col-sm-4">
-		<div class="img-border">
-			<a href ="[~15~]"><img src="assets/images/main33.png"  alt="">	</a>
+		<div class="img-border text-center">
+			<a href ="[~15~]">
+				<img src="assets/images/msg.png"  alt="Reviews">
+				<br>
+				<span class="uppercase"><big>Відгуки</big></span>
+			</a>
 		</div>
 	</div>
 </div>';$c['main_colum_2'] = '<div class="col-md-4 diff-bg-col">
@@ -323,21 +363,7 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 	<p><span class="diff-color"> УЗД допомагає визначити</span> захворювання в ранній стадії до того, як воно проявиться клінічно. Таким чином можна запобігти прогресуванню хвороби та підібрати ефективну програму лікування.</p>
 	 
 	<p><span class="diff-color">УЗД успішно використовується</span> при обстеженні вагітних на різних термінах вагітності. Діагностика застосовується для контролю стану матері та плоду на протязі всього терміну вагітності.</p>
-</div>';$c['info_page_1'] = '<div class="news">
-	<h2>
-  <a href="[~[+id+]~]">
-  [+pagetitle+]
-  </a>
-<!--    - <span class="date">[+date+]</span>    -->
-	</h2>
-<!-- 		<div class="content">
-			  <p> [+content+] </p>
-			  <div class="more">[+link+]</div>
-		</div> -->
-</div>
-
-
-';$c['news_tpl'] = '<div class="news">
+</div>';$c['info_page_1'] = '<li><a href="[~[+id+]~]">[+pagetitle+]</a></li>';$c['news_tpl'] = '<div class="news">
 				<h2>
 				  [+pagetitle+] - <span>[+date+]</span>
 				</h2>
@@ -347,29 +373,27 @@ mm_widget_tags(\'keyw\',\',\'); // Give blog tag editing capabilities to the \'d
 		</div>
 </div>';$c['info_page_2'] = '<div class="news">
 	<h2>
-  <a href="[~[+id+]~]">
-  [+pagetitle+]
-  </a>
-</h2>
-
-</div>
-';$c['info_page_3'] = '<div class="news">
+	  <a href="[~[+id+]~]">
+	  [+pagetitle+]
+	  </a>
+	</h2>
+</div>';$c['info_page_3'] = '<div class="news">
 	<h2>
-  <a href="[~[+id+]~]">
-  [+pagetitle+]
-  </a>
-   - <span class="date">[+date+]</span>
-</h2>
+		<a href="[~[+id+]~]">
+			[+pagetitle+]
+		</a>
+		- <span class="date">[+date+]</span>
+	</h2>
 		<div class="content">
 			  <p> [+content+] </p>
 			  <div class="more">[+link+]</div>
 		</div>
 </div>
 ';$c['detal_info'] = '<div class="content">
-			  <p> [+content+] </p>
-		</div>';$c['main_menu_inner_tpl'] = '<ul class="sub-item">
+	<p> [+content+] </p>
+</div>';$c['main_menu_inner_tpl'] = '<ul class="sub-item">
 	[+wf.wrapper+]
-</ul>';$s=&$this->snippetCache;$s['Ditto']='return require MODX_BASE_PATH.\'assets/snippets/ditto/snippet.ditto.php\';';$s['if']='return require MODX_BASE_PATH.\'assets/snippets/if/snippet.if.php\';';$s['UltimateParent']='return require MODX_BASE_PATH.\'assets/snippets/ultimateparent/snippet.ultimateparent.php\';';$s['eForm']='return require MODX_BASE_PATH.\'assets/snippets/eform/snippet.eform.php\';';$s['alterTitle']='//[[alterTitle? &id = `[+id+]`]] к примеру для вывода в Ditto
+</ul>';$c['info-links'] = '<li><a href="[~[+id+]~]">[+pagetitle+]</a></li>';$s=&$this->snippetCache;$s['Ditto']='return require MODX_BASE_PATH.\'assets/snippets/ditto/snippet.ditto.php\';';$s['if']='return require MODX_BASE_PATH.\'assets/snippets/if/snippet.if.php\';';$s['UltimateParent']='return require MODX_BASE_PATH.\'assets/snippets/ultimateparent/snippet.ultimateparent.php\';';$s['eForm']='return require MODX_BASE_PATH.\'assets/snippets/eform/snippet.eform.php\';';$s['alterTitle']='//[[alterTitle? &id = `[+id+]`]] к примеру для вывода в Ditto
 $id = isset($id) ? $id : $modx->documentIdentifier;  
 $arr = $modx->getPageInfo($id,1,\'pagetitle,longtitle\');
 $title = (strlen($arr["longtitle"])>0) ? $arr["longtitle"] : $arr["pagetitle"]; 
@@ -399,4 +423,4 @@ include($modx->config[\'base_path\'].\'assets/plugins/managermanager/mm.inc.php\
 
 $_CM_URL = $modx->config[\'site_url\'] . $_CM_BASE;
 
-require(MODX_BASE_PATH. $_CM_BASE .\'codemirror.plugin.php\');';$p['CodeMirrorProps']='&theme=Theme;list;default,ambiance,blackboard,cobalt,eclipse,elegant,erlang-dark,lesser-dark,midnight,monokai,neat,night,rubyblue,solarized,twilight,vibrant-ink,xq-dark,xq-light; &indentUnit=Indent unit;int;4 &tabSize=The width of a tab character;int;4 &lineWrapping=lineWrapping;list;true,false;true &matchBrackets=matchBrackets;list;true,false;true &activeLine=activeLine;list;true,false;false &emmet=emmet;list;true,false;true &search=search;list;true,false;true ';$p['TransAlias']='require MODX_BASE_PATH.\'assets/plugins/transalias/plugin.transalias.php\';';$p['TransAliasProps']='&table_name=Trans table;list;common,russian,dutch,german,czech,utf8,utf8lowercase;russian &char_restrict=Restrict alias to;list;lowercase alphanumeric,alphanumeric,legal characters;lowercase alphanumeric &remove_periods=Remove Periods;list;Yes,No;No &word_separator=Word Separator;list;dash,underscore,none;dash &override_tv=Override TV name;string; ';$p['FileSource']='require MODX_BASE_PATH.\'assets/plugins/filesource/plugin.filesource.php\';';$e = &$this->pluginEvent;$e['OnBeforeDocFormSave']=array('ManagerManager');$e['OnBeforeManagerLogin']=array('Forgot Manager Login');$e['OnBeforePluginFormSave']=array('FileSource');$e['OnBeforeSnipFormSave']=array('FileSource');$e['OnChunkFormRender']=array('CodeMirror');$e['OnDocDuplicate']=array('ManagerManager');$e['OnDocFormPrerender']=array('ManagerManager');$e['OnDocFormRender']=array('ManagerManager','CodeMirror');$e['OnDocFormSave']=array('ManagerManager');$e['OnInterfaceSettingsRender']=array('TinyMCE Rich Text Editor');$e['OnManagerAuthentication']=array('Forgot Manager Login');$e['OnManagerLoginFormRender']=array('Forgot Manager Login');$e['OnModFormRender']=array('CodeMirror');$e['OnPluginFormPrerender']=array('FileSource');$e['OnPluginFormRender']=array('ManagerManager','CodeMirror','FileSource');$e['OnRichTextEditorInit']=array('TinyMCE Rich Text Editor');$e['OnRichTextEditorRegister']=array('TinyMCE Rich Text Editor');$e['OnSnipFormPrerender']=array('FileSource');$e['OnSnipFormRender']=array('FileSource','CodeMirror');$e['OnStripAlias']=array('TransAlias');$e['OnTempFormRender']=array('CodeMirror');$e['OnTVFormRender']=array('ManagerManager');
+require(MODX_BASE_PATH. $_CM_BASE .\'codemirror.plugin.php\');';$p['CodeMirrorProps']='&theme=Theme;list;default,ambiance,blackboard,cobalt,eclipse,elegant,erlang-dark,lesser-dark,midnight,monokai,neat,night,rubyblue,solarized,twilight,vibrant-ink,xq-dark,xq-light; &indentUnit=Indent unit;int;4 &tabSize=The width of a tab character;int;4 &lineWrapping=lineWrapping;list;true,false;true &matchBrackets=matchBrackets;list;true,false;true &activeLine=activeLine;list;true,false;false &emmet=emmet;list;true,false;true &search=search;list;true,false;true ';$p['TransAlias']='require MODX_BASE_PATH.\'assets/plugins/transalias/plugin.transalias.php\';';$p['TransAliasProps']='&table_name=Trans table;list;common,russian,dutch,german,czech,utf8,utf8lowercase;russian &char_restrict=Restrict alias to;list;lowercase alphanumeric,alphanumeric,legal characters;lowercase alphanumeric &remove_periods=Remove Periods;list;Yes,No;No &word_separator=Word Separator;list;dash,underscore,none;dash &override_tv=Override TV name;string; ';$p['FileSource']='require MODX_BASE_PATH.\'assets/plugins/filesource/plugin.filesource.php\';';$e = &$this->pluginEvent;$e['OnBeforeDocFormSave']=array('ManagerManager');$e['OnBeforeManagerLogin']=array('Forgot Manager Login');$e['OnBeforePluginFormSave']=array('FileSource');$e['OnBeforeSnipFormSave']=array('FileSource');$e['OnChunkFormRender']=array('CodeMirror');$e['OnDocDuplicate']=array('ManagerManager');$e['OnDocFormPrerender']=array('ManagerManager');$e['OnDocFormRender']=array('CodeMirror','ManagerManager');$e['OnDocFormSave']=array('ManagerManager');$e['OnInterfaceSettingsRender']=array('TinyMCE Rich Text Editor');$e['OnManagerAuthentication']=array('Forgot Manager Login');$e['OnManagerLoginFormRender']=array('Forgot Manager Login');$e['OnModFormRender']=array('CodeMirror');$e['OnPluginFormPrerender']=array('FileSource');$e['OnPluginFormRender']=array('ManagerManager','CodeMirror','FileSource');$e['OnRichTextEditorInit']=array('TinyMCE Rich Text Editor');$e['OnRichTextEditorRegister']=array('TinyMCE Rich Text Editor');$e['OnSnipFormPrerender']=array('FileSource');$e['OnSnipFormRender']=array('FileSource','CodeMirror');$e['OnStripAlias']=array('TransAlias');$e['OnTempFormRender']=array('CodeMirror');$e['OnTVFormRender']=array('ManagerManager');

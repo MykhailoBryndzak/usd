@@ -1,3 +1,8 @@
+@media (min-width: 480px) {
+	.info-specialist {
+		min-height: 200px;
+	}
+}
 @media (min-width: 768px) {
 	.main-text {
 		position: absolute;
@@ -11,6 +16,7 @@
 	}
 	ul.nav li:hover ul {
 		display: block;
+		z-index: 50;
 	}
 	.main-info-blocks {
 		margin-top: -50px;
@@ -18,6 +24,37 @@
 	}
 	.main_text_all {
 		margin-bottom: 50px;
+	}
+	.specialist-photo {
+		position: relative;
+		height: 350px;
+		overflow: hidden;
+	}
+	.specialist-photo img {
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.info-specialist {
+		min-height: 160px;
+	}
+	ul.navbar-nav ul>li {
+		padding: 5px 0;
+	}
+	ul.navbar-nav ul {
+		width: 100%;
+		background-color: rgba(255,255,255,.5);
+		padding-bottom: 10px;
+	}
+	ul.navbar-nav ul a {
+		color: #333;
+	}
+	.container-fluid.bg-img {
+		height: 300px;
+		background-image: url('/assets/images/header.jpg');
+		background-repeat: no-repeat;
+		background-position: bottom center;
+		background-size: cover;
 	}
 }
 @media (min-width: 992px) {
@@ -33,6 +70,12 @@
 	.bb-green {
 		font-size: 36px;
 	}
+	.specialist-photo {
+		height: 215px;
+	}
+	.info-specialist {
+		min-height: 210px;
+	}
 }
 @media (min-width: 1200px) {
 	.main-info-blocks {
@@ -43,6 +86,12 @@
 	}
 	p.big-text {
 		font-size: 28px;
+	}
+	.specialist-photo {
+		height: 265px;
+	}
+	.info-specialist {
+		min-height: 170px;
 	}
 }
 @media (min-width: 1600px) {
@@ -59,5 +108,42 @@
 @media (min-width: 1800px) {
 	.main-text {
 		top: 130px;
+	}
+}
+@media (max-width: 768px) {
+	ul.navbar-nav ul a {
+		color: #fff;
+		-webkit-transition: all .5s ease;
+		-moz-transition: all .5s ease;
+		-ms-transition: all .5s ease;
+		-o-transition: all .5s ease;
+		transition: all .5s ease;
+	}
+	ul.navbar-nav ul a:hover {
+		color: #333;
+	}
+}
+@media (max-width: 479px) {
+	.specialists .col-xs-6 {
+		width: 100%;
+	}
+	.collapse-items {
+		width: 100%;
+	}
+}
+@media (max-width: 991px) {
+	.news ul.links {
+		overflow-y: auto;
+		height: 500px;
+	}
+	.news ul.collapsed {
+		height: 0;
+		overflow-y: hidden;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.main-img-blocks .img-border {
+		min-height: 175px;
 	}
 }
